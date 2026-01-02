@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.3),
-    on January 02, 2026, at 22:16
+    on January 02, 2026, at 22:28
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -414,7 +414,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='elephanthouse', 
         image='elephanthousre.jpg', mask=None, anchor='center',
-        ori=0.0, pos=(0.1, 0), draggable=False, size=(0.2,0.2),
+        ori=0.0, pos=(-0.1, 0), draggable=False, size=(0.2,0.2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-2.0)
@@ -473,9 +473,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Chocolate_" ---
     text_instr = visual.TextStim(win=win, name='text_instr',
-        text="This is a template" + " \n on how to use" + "\n the text component" + " \n to present instructions.",
+        text='Which one are you going to buy?',
         font='Arial',
-        pos=(-0.3, 0.25), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
+        pos=(0, 0.3), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -597,7 +597,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_15 = visual.TextStim(win=win, name='text_15',
         text='N Joy Coconut Oil\n           1 L\n         Rs 840',
         font='Arial',
-        pos=(0.3, -0.5), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
+        pos=(0.5, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-6.0);
@@ -714,7 +714,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='highlandYoghurt', 
         image='Highland yp.jpg', mask=None, anchor='center',
-        ori=0.0, pos=(-0.3, 0), draggable=False, size=(0.2, 0.2),
+        ori=0.0, pos=(-0.4, 0), draggable=False, size=(0.2, 0.2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -722,7 +722,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='anchoryoghurt', 
         image='anchor youghurt.jpg', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(0.2, 0.2),
+        ori=0.0, pos=(-0.1, 0), draggable=False, size=(0.2, 0.2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-2.0)
@@ -730,7 +730,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='ambewelayoghurt', 
         image='ambewela yoghurt.jpg', mask=None, anchor='center',
-        ori=0.0, pos=(0.3, 0), draggable=False, size=(0.2, 0.2),
+        ori=0.0, pos=(0.2, 0), draggable=False, size=(0.2, 0.2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-3.0)
@@ -738,35 +738,35 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='pelawatteyoghurt', 
         image='pelawatteypughurt.jpeg', mask=None, anchor='center',
-        ori=0.0, pos=(0.6, 0), draggable=False, size=(0.2, 0.2),
+        ori=0.0, pos=(0.5, 0), draggable=False, size=(0.2, 0.2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-4.0)
     text_8 = visual.TextStim(win=win, name='text_8',
         text='Highland Yoghurt\n         80g\n        Rs 70',
         font='Arial',
-        pos=(-0.3, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
+        pos=(-0.4, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-5.0);
     text_9 = visual.TextStim(win=win, name='text_9',
         text='Anchor Yoghurt\n     80 g\n   Rs 70',
         font='Arial',
-        pos=(0, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
+        pos=(-0.1, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-6.0);
     text_10 = visual.TextStim(win=win, name='text_10',
         text='Ambewela Yoghurt\n      80 g\n     Rs 70',
         font='Arial',
-        pos=(0.3, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
+        pos=(0.2, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-7.0);
     text_11 = visual.TextStim(win=win, name='text_11',
         text='Pelawatte Yoghurt\n       80 g\n      Rs  50',
         font='Arial',
-        pos=(0.6, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
+        pos=(0.5, -0.3), draggable=False, height=0.02, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-8.0);
