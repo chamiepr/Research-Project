@@ -1,34 +1,61 @@
-import React, { useState } from "react";
-import InputPanel from "./InputPanel";
-import PredictionCard from "./PredictionCard";
-import Counterfactual from "./Counterfactual";
-import EthicsScoreboard from "./EthicsScoreboard";
+import { useState } from 'react';
+import InputLayer from './InputLayer';
+import PredictionPanel from './PredictionPanel';
+import DualExplanation from './DualExplanation';
+import CounterfactualPanel from './CounterfactualPanel';
+import EthicalScoreboard from './EthicalScoreboard';
+import VisualInsights from './VisualInsights';
 
-import { predictXAI, counterfactualXAI, ethicsScore } from "./api";
+function XaiDashboard() {
+  const [inputs, setInputs] = useState({
+    age: 25,
+    gender: 'Male',
+    reactionTime: 500,
+    gazeX: 0,
+    gazeY: 0,
+    mostLooked: 'Price',
+    alpha: 0.5,
+    beta: 0.5,
+    frontalAsym: 0,
+    decisionWindow: [0, 1000],
+  });
 
-export default function XaiDashboard() {
-  const [prediction, setPrediction] = useState(null);
-  const [counter, setCounter] = useState(null);
-  const [ethics, setEthics] = useState(null);
+  const [predictions, setPredictions] = useState({
+    behavioral: null,
+    neural: null,
+  });
 
-  async function handleSubmit(input) {
-    const pred = await predictXAI(input);
-    const cf = await counterfactualXAI(input);
-    const eth = await ethicsScore();
-
-    setPrediction(pred);
-    setCounter(cf);
-    setEthics(eth);
-  }
+  const [view, setView] = useState('Consumer');
 
   return (
-    <div>
-      <h2>XAI Neuromarketing Dashboard</h2>
+    <div className="dashboard">
+      <div className="top-bar">
+        <h1>XAI Neuromarketing Dashboard</h1>
+        <label>
+          View Selector:{' '}
+          <select value={view} onChange={(e) => setView(e.target.value)}>
+            <option>Consumer</option>
+            <option>Marketer</option>
+            <option>Researcher</option>
+          </select>
+        </label>
+      </div>
 
-      <InputPanel onSubmit={handleSubmit} />
-      <PredictionCard data={prediction} />
-      <Counterfactual data={counter} />
-      <EthicsScoreboard data={ethics} />
+      <div className="main-content">
+        <div className="left-column">
+          <div className="panel"><InputLayer inputs={inputs} setInputs={setInputs} /></div>
+          <div className="panel"><PredictionPanel inputs={inputs} predictions={predictions} setPredictions={setPredictions} /></div>
+          <div className="panel"><DualExplanation predictions={predictions} /></div>
+          <div className="panel"><CounterfactualPanel inputs={inputs} setInputs={setInputs} predictions={predictions} /></div>
+        </div>
+
+        <div className="right-column">
+          <div className="panel"><EthicalScoreboard predictions={predictions} /></div>
+          <div className="panel"><VisualInsights predictions={predictions} view={view} /></div>
+        </div>
+      </div>
     </div>
   );
 }
+
+export default XaiDashboard;

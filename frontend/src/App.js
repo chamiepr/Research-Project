@@ -1,7 +1,12 @@
-import XaiDashboard from "./components/XAI";
+import { XaiDashboard } from './components/XAI';
+import './App.css';
 
 function App() {
-  return <XaiDashboard />;
+  return (
+    <div>
+      <XaiDashboard />
+    </div>
+  );
 }
 
 export default App;
