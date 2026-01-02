@@ -1,0 +1,2334 @@
+20.3905 	INFO 	Loaded monitor calibration from ['2025_12_23 12:18']
+20.4507 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+23.1044 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+23.1044 	INFO 	OpenGL version supported by driver is 4..
+23.1267 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F52A7BF760>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F52A7BF910>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F52A2DE0E0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.1268 	EXP 	window1: backgroundImage = ''
+23.1268 	EXP 	window1: backgroundFit = 'none'
+23.6475 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+23.6476 	EXP 	window1: recordFrameIntervals = False
+23.7120 	EXP 	window1: recordFrameIntervals = True
+23.7888 	EXP 	Screen (0) actual frame rate measured at 143.80Hz
+23.7889 	EXP 	window1: recordFrameIntervals = False
+36.0404 	INFO 	keyboard.Keyboard is using iohub backend.
+36.0405 	EXP 	Cheese: status = STARTED
+36.1966 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+36.3076 	EXP 	Created ambewela = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='ambewela', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+36.3244 	EXP 	Created kothmale = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='kothmale', opacity=1.0, ori=0.0, pos=array([-0.3,  0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+36.3420 	EXP 	Created happycow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='happycow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+36.3659 	EXP 	Created kraft = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='kraft', opacity=1.0, ori=0.0, pos=array([0.3, 0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+36.3876 	EXP 	Created richlife = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='richlife', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+36.8732 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([-0.6, -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+36.9103 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([-0.3, -0.3]), rgb=UNKNOWN, text='Kothmale Cheddar\n250 g \nRs 1300', units='height', win=Window(...), wrapWidth=1)
+36.9427 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='HappyCow Cheese\n340 g\nRs 1200', units='height', win=Window(...), wrapWidth=1)
+36.9756 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([ 0.3, -0.3]), rgb=UNKNOWN, text='Kraft Cheddar Cheese\n250 g\nRs 2590', units='height', win=Window(...), wrapWidth=1)
+37.0051 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([ 0.6, -0.3]), rgb=UNKNOWN, text='Rich Life Cheddar Cheese\n100 g\nRs 625', units='height', win=Window(...), wrapWidth=1)
+37.0697 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Which one are you going to buy ?', units='height', win=Window(...), wrapWidth=1)
+37.0888 	EXP 	Created highlandYoghurt = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='Highland yp.jpg', interpolate=True, mask=None, maskParams=None, name='highlandYoghurt', opacity=1, ori=0.0, pos=array([-0.3,  0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.1048 	EXP 	Created anchoryoghurt = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='anchor youghurt.jpg', interpolate=True, mask=None, maskParams=None, name='anchoryoghurt', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.1232 	EXP 	Created ambewelayoghurt = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='ambewela yoghurt.jpg', interpolate=True, mask=None, maskParams=None, name='ambewelayoghurt', opacity=1, ori=0.0, pos=array([0.3, 0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.1475 	EXP 	Created pelawatteyoghurt = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='pelawatteypughurt.jpeg', interpolate=True, mask=None, maskParams=None, name='pelawatteyoghurt', opacity=1, ori=0.0, pos=array([0.6, 0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.2291 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.035), italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([-0.3, -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.2863 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.035), italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Anchor Yoghurt\n     80 g\n   Rs 70', units='height', win=Window(...), wrapWidth=1)
+37.3279 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.035), italic=False, languageStyle='LTR', name='text_10', opacity=1, ori=0.0, pos=array([ 0.3, -0.3]), rgb=UNKNOWN, text='Ambewela Yoghurt\n      80 g\n     Rs 70', units='height', win=Window(...), wrapWidth=1)
+37.3547 	EXP 	Created text_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.035), italic=False, languageStyle='LTR', name='text_11', opacity=1, ori=0.0, pos=array([ 0.6, -0.3]), rgb=UNKNOWN, text='Pelawatte Yoghurt\n       80 g\n      Rs  50', units='height', win=Window(...), wrapWidth=1)
+37.3588 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.3742 	EXP 	Created ambewela = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='ambewela', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.3950 	EXP 	Created kothmale = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='kothmale', opacity=1.0, ori=0.0, pos=array([-0.3,  0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.4163 	EXP 	Created happycow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='happycow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.4436 	EXP 	Created kraft = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='kraft', opacity=1.0, ori=0.0, pos=array([0.3, 0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.4716 	EXP 	Created richlife = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='richlife', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+37.5687 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([-0.6, -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.6053 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([-0.3, -0.3]), rgb=UNKNOWN, text='Kothmale Cheddar\n250 g \nRs 1300', units='height', win=Window(...), wrapWidth=1)
+37.6456 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='HappyCow Cheese\n340 g\nRs 1200', units='height', win=Window(...), wrapWidth=1)
+37.6849 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([ 0.3, -0.3]), rgb=UNKNOWN, text='Kraft Cheddar Cheese\n250 g\nRs 2590', units='height', win=Window(...), wrapWidth=1)
+37.7144 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([ 0.6, -0.3]), rgb=UNKNOWN, text='Rich Life Cheddar Cheese\n100 g\nRs 625', units='height', win=Window(...), wrapWidth=1)
+0.4976 	EXP 	eyetracker.setRecordingState(True)
+0.4982 	EXP 	eyetracker.setRecordingState(False)
+1.7225 	INFO 	Keyboard events cleared
+1.7220 	EXP 	ambewela: image = 'ambewelacheese.jpg'
+1.7220 	EXP 	kothmale: image = 'kothmale cheese.jpg'
+1.7220 	EXP 	happycow: image = 'happycow.jpeg'
+1.7220 	EXP 	kraft: image = 'Kraft cheese.jpeg'
+1.7220 	EXP 	richlife: image = 'richlifecheese.jpg'
+1.7220 	EXP 	text: autoDraw = True
+1.7220 	EXP 	ambewela: autoDraw = True
+1.7220 	EXP 	kothmale: autoDraw = True
+1.7220 	EXP 	happycow: autoDraw = True
+1.7220 	EXP 	kraft: autoDraw = True
+1.7220 	EXP 	richlife: autoDraw = True
+1.7220 	EXP 	text_2: autoDraw = True
+1.7220 	EXP 	text_3: autoDraw = True
+1.7220 	EXP 	text_4: autoDraw = True
+1.7220 	EXP 	text_5: autoDraw = True
+1.7220 	EXP 	text_6: autoDraw = True
+1.7220 	EXP 	text: height = np.float64(0.05)
+1.7220 	EXP 	text: height = np.float64(0.05)
+1.7220 	EXP 	text: height = np.float64(0.05)
+1.7220 	EXP 	text: text = 'Which one are you going to buy?'
+1.7326 	EXP 	eyetracker.setRecordingState(False)
+1.7426 	EXP 	text: height = np.float64(0.05)
+1.7426 	EXP 	text: height = np.float64(0.05)
+1.7426 	EXP 	text: height = np.float64(0.05)
+1.7426 	EXP 	text: text = 'Which one are you going to buy?'
+1.7433 	EXP 	eyetracker.setRecordingState(False)
+1.7516 	EXP 	text: height = np.float64(0.05)
+1.7516 	EXP 	text: height = np.float64(0.05)
+1.7516 	EXP 	text: height = np.float64(0.05)
+1.7516 	EXP 	text: text = 'Which one are you going to buy?'
+1.7526 	EXP 	eyetracker.setRecordingState(False)
+1.7597 	EXP 	text: height = np.float64(0.05)
+1.7597 	EXP 	text: height = np.float64(0.05)
+1.7597 	EXP 	text: height = np.float64(0.05)
+1.7597 	EXP 	text: text = 'Which one are you going to buy?'
+1.7603 	EXP 	eyetracker.setRecordingState(False)
+1.7673 	EXP 	text: height = np.float64(0.05)
+1.7673 	EXP 	text: height = np.float64(0.05)
+1.7673 	EXP 	text: height = np.float64(0.05)
+1.7673 	EXP 	text: text = 'Which one are you going to buy?'
+1.7679 	EXP 	eyetracker.setRecordingState(False)
+1.7745 	EXP 	text: height = np.float64(0.05)
+1.7745 	EXP 	text: height = np.float64(0.05)
+1.7745 	EXP 	text: height = np.float64(0.05)
+1.7745 	EXP 	text: text = 'Which one are you going to buy?'
+1.7751 	EXP 	eyetracker.setRecordingState(False)
+1.7818 	EXP 	text: height = np.float64(0.05)
+1.7818 	EXP 	text: height = np.float64(0.05)
+1.7818 	EXP 	text: height = np.float64(0.05)
+1.7818 	EXP 	text: text = 'Which one are you going to buy?'
+1.7824 	EXP 	eyetracker.setRecordingState(False)
+1.9437 	EXP 	text: height = np.float64(0.05)
+1.9437 	EXP 	text: height = np.float64(0.05)
+1.9437 	EXP 	text: height = np.float64(0.05)
+1.9437 	EXP 	text: text = 'Which one are you going to buy?'
+1.9449 	EXP 	eyetracker.setRecordingState(False)
+1.9536 	EXP 	text: height = np.float64(0.05)
+1.9536 	EXP 	text: height = np.float64(0.05)
+1.9536 	EXP 	text: height = np.float64(0.05)
+1.9536 	EXP 	text: text = 'Which one are you going to buy?'
+1.9545 	EXP 	eyetracker.setRecordingState(False)
+1.9651 	EXP 	text: height = np.float64(0.05)
+1.9651 	EXP 	text: height = np.float64(0.05)
+1.9651 	EXP 	text: height = np.float64(0.05)
+1.9651 	EXP 	text: text = 'Which one are you going to buy?'
+1.9658 	EXP 	eyetracker.setRecordingState(False)
+1.9743 	EXP 	text: height = np.float64(0.05)
+1.9743 	EXP 	text: height = np.float64(0.05)
+1.9743 	EXP 	text: height = np.float64(0.05)
+1.9743 	EXP 	text: text = 'Which one are you going to buy?'
+1.9755 	EXP 	eyetracker.setRecordingState(False)
+1.9847 	EXP 	text: height = np.float64(0.05)
+1.9847 	EXP 	text: height = np.float64(0.05)
+1.9847 	EXP 	text: height = np.float64(0.05)
+1.9847 	EXP 	text: text = 'Which one are you going to buy?'
+1.9857 	EXP 	eyetracker.setRecordingState(False)
+1.9937 	EXP 	text: height = np.float64(0.05)
+1.9937 	EXP 	text: height = np.float64(0.05)
+1.9937 	EXP 	text: height = np.float64(0.05)
+1.9937 	EXP 	text: text = 'Which one are you going to buy?'
+1.9945 	EXP 	eyetracker.setRecordingState(False)
+2.0016 	EXP 	text: height = np.float64(0.05)
+2.0016 	EXP 	text: height = np.float64(0.05)
+2.0016 	EXP 	text: height = np.float64(0.05)
+2.0016 	EXP 	text: text = 'Which one are you going to buy?'
+2.0026 	EXP 	eyetracker.setRecordingState(False)
+2.0115 	EXP 	text: height = np.float64(0.05)
+2.0115 	EXP 	text: height = np.float64(0.05)
+2.0115 	EXP 	text: height = np.float64(0.05)
+2.0115 	EXP 	text: text = 'Which one are you going to buy?'
+2.0124 	EXP 	eyetracker.setRecordingState(False)
+2.0214 	EXP 	text: height = np.float64(0.05)
+2.0214 	EXP 	text: height = np.float64(0.05)
+2.0214 	EXP 	text: height = np.float64(0.05)
+2.0214 	EXP 	text: text = 'Which one are you going to buy?'
+2.0223 	EXP 	eyetracker.setRecordingState(False)
+2.0299 	EXP 	text: height = np.float64(0.05)
+2.0299 	EXP 	text: height = np.float64(0.05)
+2.0299 	EXP 	text: height = np.float64(0.05)
+2.0299 	EXP 	text: text = 'Which one are you going to buy?'
+2.0311 	EXP 	eyetracker.setRecordingState(False)
+2.0407 	EXP 	text: height = np.float64(0.05)
+2.0407 	EXP 	text: height = np.float64(0.05)
+2.0407 	EXP 	text: height = np.float64(0.05)
+2.0407 	EXP 	text: text = 'Which one are you going to buy?'
+2.0415 	EXP 	eyetracker.setRecordingState(False)
+2.0493 	EXP 	text: height = np.float64(0.05)
+2.0493 	EXP 	text: height = np.float64(0.05)
+2.0493 	EXP 	text: height = np.float64(0.05)
+2.0493 	EXP 	text: text = 'Which one are you going to buy?'
+2.0505 	EXP 	eyetracker.setRecordingState(False)
+2.0580 	EXP 	text: height = np.float64(0.05)
+2.0580 	EXP 	text: height = np.float64(0.05)
+2.0580 	EXP 	text: height = np.float64(0.05)
+2.0580 	EXP 	text: text = 'Which one are you going to buy?'
+2.0591 	EXP 	eyetracker.setRecordingState(False)
+2.0685 	EXP 	text: height = np.float64(0.05)
+2.0685 	EXP 	text: height = np.float64(0.05)
+2.0685 	EXP 	text: height = np.float64(0.05)
+2.0685 	EXP 	text: text = 'Which one are you going to buy?'
+2.0698 	EXP 	eyetracker.setRecordingState(False)
+2.0782 	EXP 	text: height = np.float64(0.05)
+2.0782 	EXP 	text: height = np.float64(0.05)
+2.0782 	EXP 	text: height = np.float64(0.05)
+2.0782 	EXP 	text: text = 'Which one are you going to buy?'
+2.0790 	EXP 	eyetracker.setRecordingState(False)
+2.0873 	EXP 	text: height = np.float64(0.05)
+2.0873 	EXP 	text: height = np.float64(0.05)
+2.0873 	EXP 	text: height = np.float64(0.05)
+2.0873 	EXP 	text: text = 'Which one are you going to buy?'
+2.0883 	EXP 	eyetracker.setRecordingState(False)
+2.0978 	EXP 	text: height = np.float64(0.05)
+2.0978 	EXP 	text: height = np.float64(0.05)
+2.0978 	EXP 	text: height = np.float64(0.05)
+2.0978 	EXP 	text: text = 'Which one are you going to buy?'
+2.0988 	EXP 	eyetracker.setRecordingState(False)
+2.1075 	EXP 	text: height = np.float64(0.05)
+2.1075 	EXP 	text: height = np.float64(0.05)
+2.1075 	EXP 	text: height = np.float64(0.05)
+2.1075 	EXP 	text: text = 'Which one are you going to buy?'
+2.1084 	EXP 	eyetracker.setRecordingState(False)
+2.1183 	EXP 	text: height = np.float64(0.05)
+2.1183 	EXP 	text: height = np.float64(0.05)
+2.1183 	EXP 	text: height = np.float64(0.05)
+2.1183 	EXP 	text: text = 'Which one are you going to buy?'
+2.1194 	EXP 	eyetracker.setRecordingState(False)
+2.1276 	EXP 	text: height = np.float64(0.05)
+2.1276 	EXP 	text: height = np.float64(0.05)
+2.1276 	EXP 	text: height = np.float64(0.05)
+2.1276 	EXP 	text: text = 'Which one are you going to buy?'
+2.1285 	EXP 	eyetracker.setRecordingState(False)
+2.1371 	EXP 	text: height = np.float64(0.05)
+2.1371 	EXP 	text: height = np.float64(0.05)
+2.1371 	EXP 	text: height = np.float64(0.05)
+2.1371 	EXP 	text: text = 'Which one are you going to buy?'
+2.1378 	EXP 	eyetracker.setRecordingState(False)
+2.1457 	EXP 	text: height = np.float64(0.05)
+2.1457 	EXP 	text: height = np.float64(0.05)
+2.1457 	EXP 	text: height = np.float64(0.05)
+2.1457 	EXP 	text: text = 'Which one are you going to buy?'
+2.1466 	EXP 	eyetracker.setRecordingState(False)
+2.1553 	EXP 	text: height = np.float64(0.05)
+2.1553 	EXP 	text: height = np.float64(0.05)
+2.1553 	EXP 	text: height = np.float64(0.05)
+2.1553 	EXP 	text: text = 'Which one are you going to buy?'
+2.1563 	EXP 	eyetracker.setRecordingState(False)
+2.1663 	EXP 	text: height = np.float64(0.05)
+2.1663 	EXP 	text: height = np.float64(0.05)
+2.1663 	EXP 	text: height = np.float64(0.05)
+2.1663 	EXP 	text: text = 'Which one are you going to buy?'
+2.1672 	EXP 	eyetracker.setRecordingState(False)
+2.1756 	EXP 	text: height = np.float64(0.05)
+2.1756 	EXP 	text: height = np.float64(0.05)
+2.1756 	EXP 	text: height = np.float64(0.05)
+2.1756 	EXP 	text: text = 'Which one are you going to buy?'
+2.1765 	EXP 	eyetracker.setRecordingState(False)
+2.1843 	EXP 	text: height = np.float64(0.05)
+2.1843 	EXP 	text: height = np.float64(0.05)
+2.1843 	EXP 	text: height = np.float64(0.05)
+2.1843 	EXP 	text: text = 'Which one are you going to buy?'
+2.1850 	EXP 	eyetracker.setRecordingState(False)
+2.1956 	EXP 	text: height = np.float64(0.05)
+2.1956 	EXP 	text: height = np.float64(0.05)
+2.1956 	EXP 	text: height = np.float64(0.05)
+2.1956 	EXP 	text: text = 'Which one are you going to buy?'
+2.1965 	EXP 	eyetracker.setRecordingState(False)
+2.2047 	EXP 	text: height = np.float64(0.05)
+2.2047 	EXP 	text: height = np.float64(0.05)
+2.2047 	EXP 	text: height = np.float64(0.05)
+2.2047 	EXP 	text: text = 'Which one are you going to buy?'
+2.2057 	EXP 	eyetracker.setRecordingState(False)
+2.2143 	EXP 	text: height = np.float64(0.05)
+2.2143 	EXP 	text: height = np.float64(0.05)
+2.2143 	EXP 	text: height = np.float64(0.05)
+2.2143 	EXP 	text: text = 'Which one are you going to buy?'
+2.2150 	EXP 	eyetracker.setRecordingState(False)
+2.2245 	EXP 	text: height = np.float64(0.05)
+2.2245 	EXP 	text: height = np.float64(0.05)
+2.2245 	EXP 	text: height = np.float64(0.05)
+2.2245 	EXP 	text: text = 'Which one are you going to buy?'
+2.2254 	EXP 	eyetracker.setRecordingState(False)
+2.2347 	EXP 	text: height = np.float64(0.05)
+2.2347 	EXP 	text: height = np.float64(0.05)
+2.2347 	EXP 	text: height = np.float64(0.05)
+2.2347 	EXP 	text: text = 'Which one are you going to buy?'
+2.2354 	EXP 	eyetracker.setRecordingState(False)
+2.2445 	EXP 	text: height = np.float64(0.05)
+2.2445 	EXP 	text: height = np.float64(0.05)
+2.2445 	EXP 	text: height = np.float64(0.05)
+2.2445 	EXP 	text: text = 'Which one are you going to buy?'
+2.2454 	EXP 	eyetracker.setRecordingState(False)
+2.2532 	EXP 	text: height = np.float64(0.05)
+2.2532 	EXP 	text: height = np.float64(0.05)
+2.2532 	EXP 	text: height = np.float64(0.05)
+2.2532 	EXP 	text: text = 'Which one are you going to buy?'
+2.2540 	EXP 	eyetracker.setRecordingState(False)
+2.2618 	EXP 	text: height = np.float64(0.05)
+2.2618 	EXP 	text: height = np.float64(0.05)
+2.2618 	EXP 	text: height = np.float64(0.05)
+2.2618 	EXP 	text: text = 'Which one are you going to buy?'
+2.2626 	EXP 	eyetracker.setRecordingState(False)
+2.2706 	EXP 	text: height = np.float64(0.05)
+2.2706 	EXP 	text: height = np.float64(0.05)
+2.2706 	EXP 	text: height = np.float64(0.05)
+2.2706 	EXP 	text: text = 'Which one are you going to buy?'
+2.2715 	EXP 	eyetracker.setRecordingState(False)
+2.2785 	EXP 	text: height = np.float64(0.05)
+2.2785 	EXP 	text: height = np.float64(0.05)
+2.2785 	EXP 	text: height = np.float64(0.05)
+2.2785 	EXP 	text: text = 'Which one are you going to buy?'
+2.2791 	EXP 	eyetracker.setRecordingState(False)
+2.2866 	EXP 	text: height = np.float64(0.05)
+2.2866 	EXP 	text: height = np.float64(0.05)
+2.2866 	EXP 	text: height = np.float64(0.05)
+2.2866 	EXP 	text: text = 'Which one are you going to buy?'
+2.2874 	EXP 	eyetracker.setRecordingState(False)
+2.2957 	EXP 	text: height = np.float64(0.05)
+2.2957 	EXP 	text: height = np.float64(0.05)
+2.2957 	EXP 	text: height = np.float64(0.05)
+2.2957 	EXP 	text: text = 'Which one are you going to buy?'
+2.2963 	EXP 	eyetracker.setRecordingState(False)
+2.3042 	EXP 	text: height = np.float64(0.05)
+2.3042 	EXP 	text: height = np.float64(0.05)
+2.3042 	EXP 	text: height = np.float64(0.05)
+2.3042 	EXP 	text: text = 'Which one are you going to buy?'
+2.3049 	EXP 	eyetracker.setRecordingState(False)
+2.3147 	EXP 	text: height = np.float64(0.05)
+2.3147 	EXP 	text: height = np.float64(0.05)
+2.3147 	EXP 	text: height = np.float64(0.05)
+2.3147 	EXP 	text: text = 'Which one are you going to buy?'
+2.3157 	EXP 	eyetracker.setRecordingState(False)
+2.3243 	EXP 	text: height = np.float64(0.05)
+2.3243 	EXP 	text: height = np.float64(0.05)
+2.3243 	EXP 	text: height = np.float64(0.05)
+2.3243 	EXP 	text: text = 'Which one are you going to buy?'
+2.3251 	EXP 	eyetracker.setRecordingState(False)
+2.3341 	EXP 	text: height = np.float64(0.05)
+2.3341 	EXP 	text: height = np.float64(0.05)
+2.3341 	EXP 	text: height = np.float64(0.05)
+2.3341 	EXP 	text: text = 'Which one are you going to buy?'
+2.3348 	EXP 	eyetracker.setRecordingState(False)
+2.3435 	EXP 	text: height = np.float64(0.05)
+2.3435 	EXP 	text: height = np.float64(0.05)
+2.3435 	EXP 	text: height = np.float64(0.05)
+2.3435 	EXP 	text: text = 'Which one are you going to buy?'
+2.3442 	EXP 	eyetracker.setRecordingState(False)
+2.3521 	EXP 	text: height = np.float64(0.05)
+2.3521 	EXP 	text: height = np.float64(0.05)
+2.3521 	EXP 	text: height = np.float64(0.05)
+2.3521 	EXP 	text: text = 'Which one are you going to buy?'
+2.3527 	EXP 	eyetracker.setRecordingState(False)
+2.3610 	EXP 	text: height = np.float64(0.05)
+2.3610 	EXP 	text: height = np.float64(0.05)
+2.3610 	EXP 	text: height = np.float64(0.05)
+2.3610 	EXP 	text: text = 'Which one are you going to buy?'
+2.3617 	EXP 	eyetracker.setRecordingState(False)
+2.3696 	EXP 	text: height = np.float64(0.05)
+2.3696 	EXP 	text: height = np.float64(0.05)
+2.3696 	EXP 	text: height = np.float64(0.05)
+2.3696 	EXP 	text: text = 'Which one are you going to buy?'
+2.3703 	EXP 	eyetracker.setRecordingState(False)
+2.3774 	EXP 	text: height = np.float64(0.05)
+2.3774 	EXP 	text: height = np.float64(0.05)
+2.3774 	EXP 	text: height = np.float64(0.05)
+2.3774 	EXP 	text: text = 'Which one are you going to buy?'
+2.3783 	EXP 	eyetracker.setRecordingState(False)
+2.3857 	EXP 	text: height = np.float64(0.05)
+2.3857 	EXP 	text: height = np.float64(0.05)
+2.3857 	EXP 	text: height = np.float64(0.05)
+2.3857 	EXP 	text: text = 'Which one are you going to buy?'
+2.3864 	EXP 	eyetracker.setRecordingState(False)
+2.3938 	EXP 	text: height = np.float64(0.05)
+2.3938 	EXP 	text: height = np.float64(0.05)
+2.3938 	EXP 	text: height = np.float64(0.05)
+2.3938 	EXP 	text: text = 'Which one are you going to buy?'
+2.3944 	EXP 	eyetracker.setRecordingState(False)
+2.4018 	EXP 	text: height = np.float64(0.05)
+2.4018 	EXP 	text: height = np.float64(0.05)
+2.4018 	EXP 	text: height = np.float64(0.05)
+2.4018 	EXP 	text: text = 'Which one are you going to buy?'
+2.4025 	EXP 	eyetracker.setRecordingState(False)
+2.4100 	EXP 	text: height = np.float64(0.05)
+2.4100 	EXP 	text: height = np.float64(0.05)
+2.4100 	EXP 	text: height = np.float64(0.05)
+2.4100 	EXP 	text: text = 'Which one are you going to buy?'
+2.4106 	EXP 	eyetracker.setRecordingState(False)
+2.4175 	EXP 	text: height = np.float64(0.05)
+2.4175 	EXP 	text: height = np.float64(0.05)
+2.4175 	EXP 	text: height = np.float64(0.05)
+2.4175 	EXP 	text: text = 'Which one are you going to buy?'
+2.4180 	EXP 	eyetracker.setRecordingState(False)
+2.4259 	EXP 	text: height = np.float64(0.05)
+2.4259 	EXP 	text: height = np.float64(0.05)
+2.4259 	EXP 	text: height = np.float64(0.05)
+2.4259 	EXP 	text: text = 'Which one are you going to buy?'
+2.4272 	EXP 	eyetracker.setRecordingState(False)
+2.4396 	EXP 	text: height = np.float64(0.05)
+2.4396 	EXP 	text: height = np.float64(0.05)
+2.4396 	EXP 	text: height = np.float64(0.05)
+2.4396 	EXP 	text: text = 'Which one are you going to buy?'
+2.4409 	EXP 	eyetracker.setRecordingState(False)
+2.4548 	EXP 	text: height = np.float64(0.05)
+2.4548 	EXP 	text: height = np.float64(0.05)
+2.4548 	EXP 	text: height = np.float64(0.05)
+2.4548 	EXP 	text: text = 'Which one are you going to buy?'
+2.4562 	EXP 	eyetracker.setRecordingState(False)
+2.4693 	EXP 	text: height = np.float64(0.05)
+2.4693 	EXP 	text: height = np.float64(0.05)
+2.4693 	EXP 	text: height = np.float64(0.05)
+2.4693 	EXP 	text: text = 'Which one are you going to buy?'
+2.4704 	EXP 	eyetracker.setRecordingState(False)
+2.4844 	EXP 	text: height = np.float64(0.05)
+2.4844 	EXP 	text: height = np.float64(0.05)
+2.4844 	EXP 	text: height = np.float64(0.05)
+2.4844 	EXP 	text: text = 'Which one are you going to buy?'
+2.4859 	EXP 	eyetracker.setRecordingState(False)
+2.5092 	EXP 	text: height = np.float64(0.05)
+2.5092 	EXP 	text: height = np.float64(0.05)
+2.5092 	EXP 	text: height = np.float64(0.05)
+2.5092 	EXP 	text: text = 'Which one are you going to buy?'
+2.5111 	EXP 	eyetracker.setRecordingState(False)
+2.5300 	EXP 	text: height = np.float64(0.05)
+2.5300 	EXP 	text: height = np.float64(0.05)
+2.5300 	EXP 	text: height = np.float64(0.05)
+2.5300 	EXP 	text: text = 'Which one are you going to buy?'
+2.5323 	EXP 	eyetracker.setRecordingState(False)
+2.5569 	EXP 	text: height = np.float64(0.05)
+2.5569 	EXP 	text: height = np.float64(0.05)
+2.5569 	EXP 	text: height = np.float64(0.05)
+2.5569 	EXP 	text: text = 'Which one are you going to buy?'
+2.5586 	EXP 	eyetracker.setRecordingState(False)
+2.5855 	EXP 	text: height = np.float64(0.05)
+2.5855 	EXP 	text: height = np.float64(0.05)
+2.5855 	EXP 	text: height = np.float64(0.05)
+2.5855 	EXP 	text: text = 'Which one are you going to buy?'
+2.5875 	EXP 	eyetracker.setRecordingState(False)
+2.6085 	EXP 	text: height = np.float64(0.05)
+2.6085 	EXP 	text: height = np.float64(0.05)
+2.6085 	EXP 	text: height = np.float64(0.05)
+2.6085 	EXP 	text: text = 'Which one are you going to buy?'
+2.6102 	EXP 	eyetracker.setRecordingState(False)
+2.6250 	EXP 	text: height = np.float64(0.05)
+2.6250 	EXP 	text: height = np.float64(0.05)
+2.6250 	EXP 	text: height = np.float64(0.05)
+2.6250 	EXP 	text: text = 'Which one are you going to buy?'
+2.6263 	EXP 	eyetracker.setRecordingState(False)
+2.6427 	EXP 	text: height = np.float64(0.05)
+2.6427 	EXP 	text: height = np.float64(0.05)
+2.6427 	EXP 	text: height = np.float64(0.05)
+2.6427 	EXP 	text: text = 'Which one are you going to buy?'
+2.6434 	EXP 	eyetracker.setRecordingState(False)
+2.6577 	EXP 	text: height = np.float64(0.05)
+2.6577 	EXP 	text: height = np.float64(0.05)
+2.6577 	EXP 	text: height = np.float64(0.05)
+2.6577 	EXP 	text: text = 'Which one are you going to buy?'
+2.6597 	EXP 	eyetracker.setRecordingState(False)
+2.6838 	EXP 	text: height = np.float64(0.05)
+2.6838 	EXP 	text: height = np.float64(0.05)
+2.6838 	EXP 	text: height = np.float64(0.05)
+2.6838 	EXP 	text: text = 'Which one are you going to buy?'
+2.6865 	EXP 	eyetracker.setRecordingState(False)
+2.7085 	EXP 	text: height = np.float64(0.05)
+2.7085 	EXP 	text: height = np.float64(0.05)
+2.7085 	EXP 	text: height = np.float64(0.05)
+2.7085 	EXP 	text: text = 'Which one are you going to buy?'
+2.7118 	EXP 	eyetracker.setRecordingState(False)
+2.7415 	EXP 	text: height = np.float64(0.05)
+2.7415 	EXP 	text: height = np.float64(0.05)
+2.7415 	EXP 	text: height = np.float64(0.05)
+2.7415 	EXP 	text: text = 'Which one are you going to buy?'
+2.7445 	EXP 	eyetracker.setRecordingState(False)
+2.7734 	EXP 	text: height = np.float64(0.05)
+2.7734 	EXP 	text: height = np.float64(0.05)
+2.7734 	EXP 	text: height = np.float64(0.05)
+2.7734 	EXP 	text: text = 'Which one are you going to buy?'
+2.7763 	EXP 	eyetracker.setRecordingState(False)
+2.8086 	EXP 	text: height = np.float64(0.05)
+2.8086 	EXP 	text: height = np.float64(0.05)
+2.8086 	EXP 	text: height = np.float64(0.05)
+2.8086 	EXP 	text: text = 'Which one are you going to buy?'
+2.8108 	EXP 	eyetracker.setRecordingState(False)
+2.8422 	EXP 	text: height = np.float64(0.05)
+2.8422 	EXP 	text: height = np.float64(0.05)
+2.8422 	EXP 	text: height = np.float64(0.05)
+2.8422 	EXP 	text: text = 'Which one are you going to buy?'
+2.8454 	EXP 	eyetracker.setRecordingState(False)
+2.8775 	EXP 	text: height = np.float64(0.05)
+2.8775 	EXP 	text: height = np.float64(0.05)
+2.8775 	EXP 	text: height = np.float64(0.05)
+2.8775 	EXP 	text: text = 'Which one are you going to buy?'
+2.8806 	EXP 	eyetracker.setRecordingState(False)
+2.9155 	EXP 	text: height = np.float64(0.05)
+2.9155 	EXP 	text: height = np.float64(0.05)
+2.9155 	EXP 	text: height = np.float64(0.05)
+2.9155 	EXP 	text: text = 'Which one are you going to buy?'
+2.9185 	EXP 	eyetracker.setRecordingState(False)
+2.9491 	EXP 	text: height = np.float64(0.05)
+2.9491 	EXP 	text: height = np.float64(0.05)
+2.9491 	EXP 	text: height = np.float64(0.05)
+2.9491 	EXP 	text: text = 'Which one are you going to buy?'
+2.9520 	EXP 	eyetracker.setRecordingState(False)
+2.9834 	EXP 	text: height = np.float64(0.05)
+2.9834 	EXP 	text: height = np.float64(0.05)
+2.9834 	EXP 	text: height = np.float64(0.05)
+2.9834 	EXP 	text: text = 'Which one are you going to buy?'
+2.9861 	EXP 	eyetracker.setRecordingState(False)
+3.0175 	EXP 	text: height = np.float64(0.05)
+3.0175 	EXP 	text: height = np.float64(0.05)
+3.0175 	EXP 	text: height = np.float64(0.05)
+3.0175 	EXP 	text: text = 'Which one are you going to buy?'
+3.0214 	EXP 	eyetracker.setRecordingState(False)
+3.0536 	EXP 	text: height = np.float64(0.05)
+3.0536 	EXP 	text: height = np.float64(0.05)
+3.0536 	EXP 	text: height = np.float64(0.05)
+3.0536 	EXP 	text: text = 'Which one are you going to buy?'
+3.0565 	EXP 	eyetracker.setRecordingState(False)
+3.0895 	EXP 	text: height = np.float64(0.05)
+3.0895 	EXP 	text: height = np.float64(0.05)
+3.0895 	EXP 	text: height = np.float64(0.05)
+3.0895 	EXP 	text: text = 'Which one are you going to buy?'
+3.0919 	EXP 	eyetracker.setRecordingState(False)
+3.1218 	EXP 	text: height = np.float64(0.05)
+3.1218 	EXP 	text: height = np.float64(0.05)
+3.1218 	EXP 	text: height = np.float64(0.05)
+3.1218 	EXP 	text: text = 'Which one are you going to buy?'
+3.1250 	EXP 	eyetracker.setRecordingState(False)
+3.1583 	EXP 	text: height = np.float64(0.05)
+3.1583 	EXP 	text: height = np.float64(0.05)
+3.1583 	EXP 	text: height = np.float64(0.05)
+3.1583 	EXP 	text: text = 'Which one are you going to buy?'
+3.1611 	EXP 	eyetracker.setRecordingState(False)
+3.1946 	EXP 	text: height = np.float64(0.05)
+3.1946 	EXP 	text: height = np.float64(0.05)
+3.1946 	EXP 	text: height = np.float64(0.05)
+3.1946 	EXP 	text: text = 'Which one are you going to buy?'
+3.1983 	EXP 	eyetracker.setRecordingState(False)
+3.2312 	EXP 	text: height = np.float64(0.05)
+3.2312 	EXP 	text: height = np.float64(0.05)
+3.2312 	EXP 	text: height = np.float64(0.05)
+3.2312 	EXP 	text: text = 'Which one are you going to buy?'
+3.2342 	EXP 	eyetracker.setRecordingState(False)
+3.2710 	EXP 	text: height = np.float64(0.05)
+3.2710 	EXP 	text: height = np.float64(0.05)
+3.2710 	EXP 	text: height = np.float64(0.05)
+3.2710 	EXP 	text: text = 'Which one are you going to buy?'
+3.2738 	EXP 	eyetracker.setRecordingState(False)
+3.3034 	EXP 	text: height = np.float64(0.05)
+3.3034 	EXP 	text: height = np.float64(0.05)
+3.3034 	EXP 	text: height = np.float64(0.05)
+3.3034 	EXP 	text: text = 'Which one are you going to buy?'
+3.3055 	EXP 	eyetracker.setRecordingState(False)
+3.3341 	EXP 	text: height = np.float64(0.05)
+3.3341 	EXP 	text: height = np.float64(0.05)
+3.3341 	EXP 	text: height = np.float64(0.05)
+3.3341 	EXP 	text: text = 'Which one are you going to buy?'
+3.3376 	EXP 	eyetracker.setRecordingState(False)
+3.3668 	EXP 	text: height = np.float64(0.05)
+3.3668 	EXP 	text: height = np.float64(0.05)
+3.3668 	EXP 	text: height = np.float64(0.05)
+3.3668 	EXP 	text: text = 'Which one are you going to buy?'
+3.3698 	EXP 	eyetracker.setRecordingState(False)
+3.4036 	EXP 	text: height = np.float64(0.05)
+3.4036 	EXP 	text: height = np.float64(0.05)
+3.4036 	EXP 	text: height = np.float64(0.05)
+3.4036 	EXP 	text: text = 'Which one are you going to buy?'
+3.4068 	EXP 	eyetracker.setRecordingState(False)
+3.4414 	EXP 	text: height = np.float64(0.05)
+3.4414 	EXP 	text: height = np.float64(0.05)
+3.4414 	EXP 	text: height = np.float64(0.05)
+3.4414 	EXP 	text: text = 'Which one are you going to buy?'
+3.4456 	EXP 	eyetracker.setRecordingState(False)
+3.4767 	EXP 	text: height = np.float64(0.05)
+3.4767 	EXP 	text: height = np.float64(0.05)
+3.4767 	EXP 	text: height = np.float64(0.05)
+3.4767 	EXP 	text: text = 'Which one are you going to buy?'
+3.4800 	EXP 	eyetracker.setRecordingState(False)
+3.5104 	EXP 	text: height = np.float64(0.05)
+3.5104 	EXP 	text: height = np.float64(0.05)
+3.5104 	EXP 	text: height = np.float64(0.05)
+3.5104 	EXP 	text: text = 'Which one are you going to buy?'
+3.5133 	EXP 	eyetracker.setRecordingState(False)
+3.5434 	EXP 	text: height = np.float64(0.05)
+3.5434 	EXP 	text: height = np.float64(0.05)
+3.5434 	EXP 	text: height = np.float64(0.05)
+3.5434 	EXP 	text: text = 'Which one are you going to buy?'
+3.5463 	EXP 	eyetracker.setRecordingState(False)
+3.5774 	EXP 	text: height = np.float64(0.05)
+3.5774 	EXP 	text: height = np.float64(0.05)
+3.5774 	EXP 	text: height = np.float64(0.05)
+3.5774 	EXP 	text: text = 'Which one are you going to buy?'
+3.5805 	EXP 	eyetracker.setRecordingState(False)
+3.6131 	EXP 	text: height = np.float64(0.05)
+3.6131 	EXP 	text: height = np.float64(0.05)
+3.6131 	EXP 	text: height = np.float64(0.05)
+3.6131 	EXP 	text: text = 'Which one are you going to buy?'
+3.6158 	EXP 	eyetracker.setRecordingState(False)
+3.6461 	EXP 	text: height = np.float64(0.05)
+3.6461 	EXP 	text: height = np.float64(0.05)
+3.6461 	EXP 	text: height = np.float64(0.05)
+3.6461 	EXP 	text: text = 'Which one are you going to buy?'
+3.6482 	EXP 	eyetracker.setRecordingState(False)
+3.6781 	EXP 	text: height = np.float64(0.05)
+3.6781 	EXP 	text: height = np.float64(0.05)
+3.6781 	EXP 	text: height = np.float64(0.05)
+3.6781 	EXP 	text: text = 'Which one are you going to buy?'
+3.6811 	EXP 	eyetracker.setRecordingState(False)
+3.7125 	EXP 	text: height = np.float64(0.05)
+3.7125 	EXP 	text: height = np.float64(0.05)
+3.7125 	EXP 	text: height = np.float64(0.05)
+3.7125 	EXP 	text: text = 'Which one are you going to buy?'
+3.7149 	EXP 	eyetracker.setRecordingState(False)
+3.7460 	EXP 	text: height = np.float64(0.05)
+3.7460 	EXP 	text: height = np.float64(0.05)
+3.7460 	EXP 	text: height = np.float64(0.05)
+3.7460 	EXP 	text: text = 'Which one are you going to buy?'
+3.7489 	EXP 	eyetracker.setRecordingState(False)
+3.7805 	EXP 	text: height = np.float64(0.05)
+3.7805 	EXP 	text: height = np.float64(0.05)
+3.7805 	EXP 	text: height = np.float64(0.05)
+3.7805 	EXP 	text: text = 'Which one are you going to buy?'
+3.7842 	EXP 	eyetracker.setRecordingState(False)
+3.8130 	EXP 	text: height = np.float64(0.05)
+3.8130 	EXP 	text: height = np.float64(0.05)
+3.8130 	EXP 	text: height = np.float64(0.05)
+3.8130 	EXP 	text: text = 'Which one are you going to buy?'
+3.8153 	EXP 	eyetracker.setRecordingState(False)
+3.8451 	EXP 	text: height = np.float64(0.05)
+3.8451 	EXP 	text: height = np.float64(0.05)
+3.8451 	EXP 	text: height = np.float64(0.05)
+3.8451 	EXP 	text: text = 'Which one are you going to buy?'
+3.8477 	EXP 	eyetracker.setRecordingState(False)
+3.8786 	EXP 	text: height = np.float64(0.05)
+3.8786 	EXP 	text: height = np.float64(0.05)
+3.8786 	EXP 	text: height = np.float64(0.05)
+3.8786 	EXP 	text: text = 'Which one are you going to buy?'
+3.8822 	EXP 	eyetracker.setRecordingState(False)
+3.9141 	EXP 	text: height = np.float64(0.05)
+3.9141 	EXP 	text: height = np.float64(0.05)
+3.9141 	EXP 	text: height = np.float64(0.05)
+3.9141 	EXP 	text: text = 'Which one are you going to buy?'
+3.9171 	EXP 	eyetracker.setRecordingState(False)
+3.9461 	EXP 	text: height = np.float64(0.05)
+3.9461 	EXP 	text: height = np.float64(0.05)
+3.9461 	EXP 	text: height = np.float64(0.05)
+3.9461 	EXP 	text: text = 'Which one are you going to buy?'
+3.9491 	EXP 	eyetracker.setRecordingState(False)
+3.9813 	EXP 	text: height = np.float64(0.05)
+3.9813 	EXP 	text: height = np.float64(0.05)
+3.9813 	EXP 	text: height = np.float64(0.05)
+3.9813 	EXP 	text: text = 'Which one are you going to buy?'
+3.9845 	EXP 	eyetracker.setRecordingState(False)
+4.0152 	EXP 	text: height = np.float64(0.05)
+4.0152 	EXP 	text: height = np.float64(0.05)
+4.0152 	EXP 	text: height = np.float64(0.05)
+4.0152 	EXP 	text: text = 'Which one are you going to buy?'
+4.0180 	EXP 	eyetracker.setRecordingState(False)
+4.0447 	EXP 	text: height = np.float64(0.05)
+4.0447 	EXP 	text: height = np.float64(0.05)
+4.0447 	EXP 	text: height = np.float64(0.05)
+4.0447 	EXP 	text: text = 'Which one are you going to buy?'
+4.0475 	EXP 	eyetracker.setRecordingState(False)
+4.0758 	EXP 	text: height = np.float64(0.05)
+4.0758 	EXP 	text: height = np.float64(0.05)
+4.0758 	EXP 	text: height = np.float64(0.05)
+4.0758 	EXP 	text: text = 'Which one are you going to buy?'
+4.0782 	EXP 	eyetracker.setRecordingState(False)
+4.1068 	EXP 	text: height = np.float64(0.05)
+4.1068 	EXP 	text: height = np.float64(0.05)
+4.1068 	EXP 	text: height = np.float64(0.05)
+4.1068 	EXP 	text: text = 'Which one are you going to buy?'
+4.1106 	EXP 	eyetracker.setRecordingState(False)
+4.1292 	EXP 	text: height = np.float64(0.05)
+4.1292 	EXP 	text: height = np.float64(0.05)
+4.1292 	EXP 	text: height = np.float64(0.05)
+4.1292 	EXP 	text: text = 'Which one are you going to buy?'
+4.1325 	EXP 	eyetracker.setRecordingState(False)
+4.1669 	EXP 	text: height = np.float64(0.05)
+4.1669 	EXP 	text: height = np.float64(0.05)
+4.1669 	EXP 	text: height = np.float64(0.05)
+4.1669 	EXP 	text: text = 'Which one are you going to buy?'
+4.1701 	EXP 	eyetracker.setRecordingState(False)
+4.1981 	EXP 	text: height = np.float64(0.05)
+4.1981 	EXP 	text: height = np.float64(0.05)
+4.1981 	EXP 	text: height = np.float64(0.05)
+4.1981 	EXP 	text: text = 'Which one are you going to buy?'
+4.2006 	EXP 	eyetracker.setRecordingState(False)
+4.2273 	EXP 	text: height = np.float64(0.05)
+4.2273 	EXP 	text: height = np.float64(0.05)
+4.2273 	EXP 	text: height = np.float64(0.05)
+4.2273 	EXP 	text: text = 'Which one are you going to buy?'
+4.2296 	EXP 	eyetracker.setRecordingState(False)
+4.2589 	EXP 	text: height = np.float64(0.05)
+4.2589 	EXP 	text: height = np.float64(0.05)
+4.2589 	EXP 	text: height = np.float64(0.05)
+4.2589 	EXP 	text: text = 'Which one are you going to buy?'
+4.2618 	EXP 	eyetracker.setRecordingState(False)
+4.2932 	EXP 	text: height = np.float64(0.05)
+4.2932 	EXP 	text: height = np.float64(0.05)
+4.2932 	EXP 	text: height = np.float64(0.05)
+4.2932 	EXP 	text: text = 'Which one are you going to buy?'
+4.2956 	EXP 	eyetracker.setRecordingState(False)
+4.3282 	EXP 	text: height = np.float64(0.05)
+4.3282 	EXP 	text: height = np.float64(0.05)
+4.3282 	EXP 	text: height = np.float64(0.05)
+4.3282 	EXP 	text: text = 'Which one are you going to buy?'
+4.3309 	EXP 	eyetracker.setRecordingState(False)
+4.3592 	EXP 	text: height = np.float64(0.05)
+4.3592 	EXP 	text: height = np.float64(0.05)
+4.3592 	EXP 	text: height = np.float64(0.05)
+4.3592 	EXP 	text: text = 'Which one are you going to buy?'
+4.3617 	EXP 	eyetracker.setRecordingState(False)
+4.3886 	EXP 	text: height = np.float64(0.05)
+4.3886 	EXP 	text: height = np.float64(0.05)
+4.3886 	EXP 	text: height = np.float64(0.05)
+4.3886 	EXP 	text: text = 'Which one are you going to buy?'
+4.3900 	EXP 	eyetracker.setRecordingState(False)
+4.4123 	EXP 	text: height = np.float64(0.05)
+4.4123 	EXP 	text: height = np.float64(0.05)
+4.4123 	EXP 	text: height = np.float64(0.05)
+4.4123 	EXP 	text: text = 'Which one are you going to buy?'
+4.4153 	EXP 	eyetracker.setRecordingState(False)
+4.4415 	EXP 	text: height = np.float64(0.05)
+4.4415 	EXP 	text: height = np.float64(0.05)
+4.4415 	EXP 	text: height = np.float64(0.05)
+4.4415 	EXP 	text: text = 'Which one are you going to buy?'
+4.4440 	EXP 	eyetracker.setRecordingState(False)
+4.4640 	EXP 	text: height = np.float64(0.05)
+4.4640 	EXP 	text: height = np.float64(0.05)
+4.4640 	EXP 	text: height = np.float64(0.05)
+4.4640 	EXP 	text: text = 'Which one are you going to buy?'
+4.4663 	EXP 	eyetracker.setRecordingState(False)
+4.4956 	EXP 	text: height = np.float64(0.05)
+4.4956 	EXP 	text: height = np.float64(0.05)
+4.4956 	EXP 	text: height = np.float64(0.05)
+4.4956 	EXP 	text: text = 'Which one are you going to buy?'
+4.4977 	EXP 	eyetracker.setRecordingState(False)
+4.5162 	EXP 	text: height = np.float64(0.05)
+4.5162 	EXP 	text: height = np.float64(0.05)
+4.5162 	EXP 	text: height = np.float64(0.05)
+4.5162 	EXP 	text: text = 'Which one are you going to buy?'
+4.5188 	EXP 	eyetracker.setRecordingState(False)
+4.5388 	EXP 	text: height = np.float64(0.05)
+4.5388 	EXP 	text: height = np.float64(0.05)
+4.5388 	EXP 	text: height = np.float64(0.05)
+4.5388 	EXP 	text: text = 'Which one are you going to buy?'
+4.5403 	EXP 	eyetracker.setRecordingState(False)
+4.5559 	EXP 	text: height = np.float64(0.05)
+4.5559 	EXP 	text: height = np.float64(0.05)
+4.5559 	EXP 	text: height = np.float64(0.05)
+4.5559 	EXP 	text: text = 'Which one are you going to buy?'
+4.5577 	EXP 	eyetracker.setRecordingState(False)
+4.5755 	EXP 	text: height = np.float64(0.05)
+4.5755 	EXP 	text: height = np.float64(0.05)
+4.5755 	EXP 	text: height = np.float64(0.05)
+4.5755 	EXP 	text: text = 'Which one are you going to buy?'
+4.5771 	EXP 	eyetracker.setRecordingState(False)
+4.5935 	EXP 	text: height = np.float64(0.05)
+4.5935 	EXP 	text: height = np.float64(0.05)
+4.5935 	EXP 	text: height = np.float64(0.05)
+4.5935 	EXP 	text: text = 'Which one are you going to buy?'
+4.5952 	EXP 	eyetracker.setRecordingState(False)
+4.6188 	EXP 	text: height = np.float64(0.05)
+4.6188 	EXP 	text: height = np.float64(0.05)
+4.6188 	EXP 	text: height = np.float64(0.05)
+4.6188 	EXP 	text: text = 'Which one are you going to buy?'
+4.6213 	EXP 	eyetracker.setRecordingState(False)
+4.6471 	EXP 	text: height = np.float64(0.05)
+4.6471 	EXP 	text: height = np.float64(0.05)
+4.6471 	EXP 	text: height = np.float64(0.05)
+4.6471 	EXP 	text: text = 'Which one are you going to buy?'
+4.6497 	EXP 	eyetracker.setRecordingState(False)
+4.6762 	EXP 	text: height = np.float64(0.05)
+4.6762 	EXP 	text: height = np.float64(0.05)
+4.6762 	EXP 	text: height = np.float64(0.05)
+4.6762 	EXP 	text: text = 'Which one are you going to buy?'
+4.6790 	EXP 	eyetracker.setRecordingState(False)
+4.7025 	EXP 	text: height = np.float64(0.05)
+4.7025 	EXP 	text: height = np.float64(0.05)
+4.7025 	EXP 	text: height = np.float64(0.05)
+4.7025 	EXP 	text: text = 'Which one are you going to buy?'
+4.7045 	EXP 	eyetracker.setRecordingState(False)
+4.7283 	EXP 	text: height = np.float64(0.05)
+4.7283 	EXP 	text: height = np.float64(0.05)
+4.7283 	EXP 	text: height = np.float64(0.05)
+4.7283 	EXP 	text: text = 'Which one are you going to buy?'
+4.7304 	EXP 	eyetracker.setRecordingState(False)
+4.7604 	EXP 	text: height = np.float64(0.05)
+4.7604 	EXP 	text: height = np.float64(0.05)
+4.7604 	EXP 	text: height = np.float64(0.05)
+4.7604 	EXP 	text: text = 'Which one are you going to buy?'
+4.7636 	EXP 	eyetracker.setRecordingState(False)
+4.7913 	EXP 	text: height = np.float64(0.05)
+4.7913 	EXP 	text: height = np.float64(0.05)
+4.7913 	EXP 	text: height = np.float64(0.05)
+4.7913 	EXP 	text: text = 'Which one are you going to buy?'
+4.7942 	EXP 	eyetracker.setRecordingState(False)
+4.8214 	EXP 	text: height = np.float64(0.05)
+4.8214 	EXP 	text: height = np.float64(0.05)
+4.8214 	EXP 	text: height = np.float64(0.05)
+4.8214 	EXP 	text: text = 'Which one are you going to buy?'
+4.8244 	EXP 	eyetracker.setRecordingState(False)
+4.8505 	EXP 	text: height = np.float64(0.05)
+4.8505 	EXP 	text: height = np.float64(0.05)
+4.8505 	EXP 	text: height = np.float64(0.05)
+4.8505 	EXP 	text: text = 'Which one are you going to buy?'
+4.8523 	EXP 	eyetracker.setRecordingState(False)
+4.8827 	EXP 	text: height = np.float64(0.05)
+4.8827 	EXP 	text: height = np.float64(0.05)
+4.8827 	EXP 	text: height = np.float64(0.05)
+4.8827 	EXP 	text: text = 'Which one are you going to buy?'
+4.8853 	EXP 	eyetracker.setRecordingState(False)
+4.9167 	EXP 	text: height = np.float64(0.05)
+4.9167 	EXP 	text: height = np.float64(0.05)
+4.9167 	EXP 	text: height = np.float64(0.05)
+4.9167 	EXP 	text: text = 'Which one are you going to buy?'
+4.9190 	EXP 	eyetracker.setRecordingState(False)
+4.9440 	EXP 	text: height = np.float64(0.05)
+4.9440 	EXP 	text: height = np.float64(0.05)
+4.9440 	EXP 	text: height = np.float64(0.05)
+4.9440 	EXP 	text: text = 'Which one are you going to buy?'
+4.9460 	EXP 	eyetracker.setRecordingState(False)
+4.9741 	EXP 	text: height = np.float64(0.05)
+4.9741 	EXP 	text: height = np.float64(0.05)
+4.9741 	EXP 	text: height = np.float64(0.05)
+4.9741 	EXP 	text: text = 'Which one are you going to buy?'
+4.9774 	EXP 	eyetracker.setRecordingState(False)
+5.0041 	EXP 	text: height = np.float64(0.05)
+5.0041 	EXP 	text: height = np.float64(0.05)
+5.0041 	EXP 	text: height = np.float64(0.05)
+5.0041 	EXP 	text: text = 'Which one are you going to buy?'
+5.0074 	EXP 	eyetracker.setRecordingState(False)
+5.0390 	EXP 	text: height = np.float64(0.05)
+5.0390 	EXP 	text: height = np.float64(0.05)
+5.0390 	EXP 	text: height = np.float64(0.05)
+5.0390 	EXP 	text: text = 'Which one are you going to buy?'
+5.0421 	EXP 	eyetracker.setRecordingState(False)
+5.0716 	EXP 	text: height = np.float64(0.05)
+5.0716 	EXP 	text: height = np.float64(0.05)
+5.0716 	EXP 	text: height = np.float64(0.05)
+5.0716 	EXP 	text: text = 'Which one are you going to buy?'
+5.0749 	EXP 	eyetracker.setRecordingState(False)
+5.1001 	EXP 	text: height = np.float64(0.05)
+5.1001 	EXP 	text: height = np.float64(0.05)
+5.1001 	EXP 	text: height = np.float64(0.05)
+5.1001 	EXP 	text: text = 'Which one are you going to buy?'
+5.1032 	EXP 	eyetracker.setRecordingState(False)
+5.1350 	EXP 	text: height = np.float64(0.05)
+5.1350 	EXP 	text: height = np.float64(0.05)
+5.1350 	EXP 	text: height = np.float64(0.05)
+5.1350 	EXP 	text: text = 'Which one are you going to buy?'
+5.1378 	EXP 	eyetracker.setRecordingState(False)
+5.1692 	EXP 	text: height = np.float64(0.05)
+5.1692 	EXP 	text: height = np.float64(0.05)
+5.1692 	EXP 	text: height = np.float64(0.05)
+5.1692 	EXP 	text: text = 'Which one are you going to buy?'
+5.1724 	EXP 	eyetracker.setRecordingState(False)
+5.1984 	EXP 	text: height = np.float64(0.05)
+5.1984 	EXP 	text: height = np.float64(0.05)
+5.1984 	EXP 	text: height = np.float64(0.05)
+5.1984 	EXP 	text: text = 'Which one are you going to buy?'
+5.2002 	EXP 	eyetracker.setRecordingState(False)
+5.2187 	EXP 	text: height = np.float64(0.05)
+5.2187 	EXP 	text: height = np.float64(0.05)
+5.2187 	EXP 	text: height = np.float64(0.05)
+5.2187 	EXP 	text: text = 'Which one are you going to buy?'
+5.2209 	EXP 	eyetracker.setRecordingState(False)
+5.2392 	EXP 	text: height = np.float64(0.05)
+5.2392 	EXP 	text: height = np.float64(0.05)
+5.2392 	EXP 	text: height = np.float64(0.05)
+5.2392 	EXP 	text: text = 'Which one are you going to buy?'
+5.2409 	EXP 	eyetracker.setRecordingState(False)
+5.2615 	EXP 	text: height = np.float64(0.05)
+5.2615 	EXP 	text: height = np.float64(0.05)
+5.2615 	EXP 	text: height = np.float64(0.05)
+5.2615 	EXP 	text: text = 'Which one are you going to buy?'
+5.2633 	EXP 	eyetracker.setRecordingState(False)
+5.2830 	EXP 	text: height = np.float64(0.05)
+5.2830 	EXP 	text: height = np.float64(0.05)
+5.2830 	EXP 	text: height = np.float64(0.05)
+5.2830 	EXP 	text: text = 'Which one are you going to buy?'
+5.2861 	EXP 	eyetracker.setRecordingState(False)
+5.3113 	EXP 	text: height = np.float64(0.05)
+5.3113 	EXP 	text: height = np.float64(0.05)
+5.3113 	EXP 	text: height = np.float64(0.05)
+5.3113 	EXP 	text: text = 'Which one are you going to buy?'
+5.3132 	EXP 	eyetracker.setRecordingState(False)
+5.3311 	EXP 	text: height = np.float64(0.05)
+5.3311 	EXP 	text: height = np.float64(0.05)
+5.3311 	EXP 	text: height = np.float64(0.05)
+5.3311 	EXP 	text: text = 'Which one are you going to buy?'
+5.3326 	EXP 	eyetracker.setRecordingState(False)
+5.3478 	EXP 	text: height = np.float64(0.05)
+5.3478 	EXP 	text: height = np.float64(0.05)
+5.3478 	EXP 	text: height = np.float64(0.05)
+5.3478 	EXP 	text: text = 'Which one are you going to buy?'
+5.3491 	EXP 	eyetracker.setRecordingState(False)
+5.3627 	EXP 	text: height = np.float64(0.05)
+5.3627 	EXP 	text: height = np.float64(0.05)
+5.3627 	EXP 	text: height = np.float64(0.05)
+5.3627 	EXP 	text: text = 'Which one are you going to buy?'
+5.3643 	EXP 	eyetracker.setRecordingState(False)
+5.3832 	EXP 	text: height = np.float64(0.05)
+5.3832 	EXP 	text: height = np.float64(0.05)
+5.3832 	EXP 	text: height = np.float64(0.05)
+5.3832 	EXP 	text: text = 'Which one are you going to buy?'
+5.3851 	EXP 	eyetracker.setRecordingState(False)
+5.4034 	EXP 	text: height = np.float64(0.05)
+5.4034 	EXP 	text: height = np.float64(0.05)
+5.4034 	EXP 	text: height = np.float64(0.05)
+5.4034 	EXP 	text: text = 'Which one are you going to buy?'
+5.4051 	EXP 	eyetracker.setRecordingState(False)
+5.4235 	EXP 	text: height = np.float64(0.05)
+5.4235 	EXP 	text: height = np.float64(0.05)
+5.4235 	EXP 	text: height = np.float64(0.05)
+5.4235 	EXP 	text: text = 'Which one are you going to buy?'
+5.4258 	EXP 	eyetracker.setRecordingState(False)
+5.4508 	EXP 	text: height = np.float64(0.05)
+5.4508 	EXP 	text: height = np.float64(0.05)
+5.4508 	EXP 	text: height = np.float64(0.05)
+5.4508 	EXP 	text: text = 'Which one are you going to buy?'
+5.4531 	EXP 	eyetracker.setRecordingState(False)
+5.4718 	EXP 	text: height = np.float64(0.05)
+5.4718 	EXP 	text: height = np.float64(0.05)
+5.4718 	EXP 	text: height = np.float64(0.05)
+5.4718 	EXP 	text: text = 'Which one are you going to buy?'
+5.4737 	EXP 	eyetracker.setRecordingState(False)
+5.4874 	EXP 	text: height = np.float64(0.05)
+5.4874 	EXP 	text: height = np.float64(0.05)
+5.4874 	EXP 	text: height = np.float64(0.05)
+5.4874 	EXP 	text: text = 'Which one are you going to buy?'
+5.4889 	EXP 	eyetracker.setRecordingState(False)
+5.5032 	EXP 	text: height = np.float64(0.05)
+5.5032 	EXP 	text: height = np.float64(0.05)
+5.5032 	EXP 	text: height = np.float64(0.05)
+5.5032 	EXP 	text: text = 'Which one are you going to buy?'
+5.5054 	EXP 	eyetracker.setRecordingState(False)
+5.5219 	EXP 	text: height = np.float64(0.05)
+5.5219 	EXP 	text: height = np.float64(0.05)
+5.5219 	EXP 	text: height = np.float64(0.05)
+5.5219 	EXP 	text: text = 'Which one are you going to buy?'
+5.5238 	EXP 	eyetracker.setRecordingState(False)
+5.5419 	EXP 	text: height = np.float64(0.05)
+5.5419 	EXP 	text: height = np.float64(0.05)
+5.5419 	EXP 	text: height = np.float64(0.05)
+5.5419 	EXP 	text: text = 'Which one are you going to buy?'
+5.5435 	EXP 	eyetracker.setRecordingState(False)
+5.5630 	EXP 	text: height = np.float64(0.05)
+5.5630 	EXP 	text: height = np.float64(0.05)
+5.5630 	EXP 	text: height = np.float64(0.05)
+5.5630 	EXP 	text: text = 'Which one are you going to buy?'
+5.5648 	EXP 	eyetracker.setRecordingState(False)
+5.5816 	EXP 	text: height = np.float64(0.05)
+5.5816 	EXP 	text: height = np.float64(0.05)
+5.5816 	EXP 	text: height = np.float64(0.05)
+5.5816 	EXP 	text: text = 'Which one are you going to buy?'
+5.5830 	EXP 	eyetracker.setRecordingState(False)
+5.5973 	EXP 	text: height = np.float64(0.05)
+5.5973 	EXP 	text: height = np.float64(0.05)
+5.5973 	EXP 	text: height = np.float64(0.05)
+5.5973 	EXP 	text: text = 'Which one are you going to buy?'
+5.5987 	EXP 	eyetracker.setRecordingState(False)
+5.6118 	EXP 	text: height = np.float64(0.05)
+5.6118 	EXP 	text: height = np.float64(0.05)
+5.6118 	EXP 	text: height = np.float64(0.05)
+5.6118 	EXP 	text: text = 'Which one are you going to buy?'
+5.6132 	EXP 	eyetracker.setRecordingState(False)
+5.6278 	EXP 	text: height = np.float64(0.05)
+5.6278 	EXP 	text: height = np.float64(0.05)
+5.6278 	EXP 	text: height = np.float64(0.05)
+5.6278 	EXP 	text: text = 'Which one are you going to buy?'
+5.6301 	EXP 	eyetracker.setRecordingState(False)
+5.6490 	EXP 	text: height = np.float64(0.05)
+5.6490 	EXP 	text: height = np.float64(0.05)
+5.6490 	EXP 	text: height = np.float64(0.05)
+5.6490 	EXP 	text: text = 'Which one are you going to buy?'
+5.6510 	EXP 	eyetracker.setRecordingState(False)
+5.6700 	EXP 	text: height = np.float64(0.05)
+5.6700 	EXP 	text: height = np.float64(0.05)
+5.6700 	EXP 	text: height = np.float64(0.05)
+5.6700 	EXP 	text: text = 'Which one are you going to buy?'
+5.6720 	EXP 	eyetracker.setRecordingState(False)
+5.6956 	EXP 	text: height = np.float64(0.05)
+5.6956 	EXP 	text: height = np.float64(0.05)
+5.6956 	EXP 	text: height = np.float64(0.05)
+5.6956 	EXP 	text: text = 'Which one are you going to buy?'
+5.6981 	EXP 	eyetracker.setRecordingState(False)
+5.7198 	EXP 	text: height = np.float64(0.05)
+5.7198 	EXP 	text: height = np.float64(0.05)
+5.7198 	EXP 	text: height = np.float64(0.05)
+5.7198 	EXP 	text: text = 'Which one are you going to buy?'
+5.7221 	EXP 	eyetracker.setRecordingState(False)
+5.7507 	EXP 	text: height = np.float64(0.05)
+5.7507 	EXP 	text: height = np.float64(0.05)
+5.7507 	EXP 	text: height = np.float64(0.05)
+5.7507 	EXP 	text: text = 'Which one are you going to buy?'
+5.7534 	EXP 	eyetracker.setRecordingState(False)
+5.7753 	EXP 	text: height = np.float64(0.05)
+5.7753 	EXP 	text: height = np.float64(0.05)
+5.7753 	EXP 	text: height = np.float64(0.05)
+5.7753 	EXP 	text: text = 'Which one are you going to buy?'
+5.7774 	EXP 	eyetracker.setRecordingState(False)
+5.7951 	EXP 	text: height = np.float64(0.05)
+5.7951 	EXP 	text: height = np.float64(0.05)
+5.7951 	EXP 	text: height = np.float64(0.05)
+5.7951 	EXP 	text: text = 'Which one are you going to buy?'
+5.7970 	EXP 	eyetracker.setRecordingState(False)
+5.8126 	EXP 	text: height = np.float64(0.05)
+5.8126 	EXP 	text: height = np.float64(0.05)
+5.8126 	EXP 	text: height = np.float64(0.05)
+5.8126 	EXP 	text: text = 'Which one are you going to buy?'
+5.8141 	EXP 	eyetracker.setRecordingState(False)
+5.8265 	EXP 	text: height = np.float64(0.05)
+5.8265 	EXP 	text: height = np.float64(0.05)
+5.8265 	EXP 	text: height = np.float64(0.05)
+5.8265 	EXP 	text: text = 'Which one are you going to buy?'
+5.8276 	EXP 	eyetracker.setRecordingState(False)
+5.8392 	EXP 	text: height = np.float64(0.05)
+5.8392 	EXP 	text: height = np.float64(0.05)
+5.8392 	EXP 	text: height = np.float64(0.05)
+5.8392 	EXP 	text: text = 'Which one are you going to buy?'
+5.8403 	EXP 	eyetracker.setRecordingState(False)
+5.8509 	EXP 	text: height = np.float64(0.05)
+5.8509 	EXP 	text: height = np.float64(0.05)
+5.8509 	EXP 	text: height = np.float64(0.05)
+5.8509 	EXP 	text: text = 'Which one are you going to buy?'
+5.8521 	EXP 	eyetracker.setRecordingState(False)
+5.8663 	EXP 	text: height = np.float64(0.05)
+5.8663 	EXP 	text: height = np.float64(0.05)
+5.8663 	EXP 	text: height = np.float64(0.05)
+5.8663 	EXP 	text: text = 'Which one are you going to buy?'
+5.8683 	EXP 	eyetracker.setRecordingState(False)
+5.8896 	EXP 	text: height = np.float64(0.05)
+5.8896 	EXP 	text: height = np.float64(0.05)
+5.8896 	EXP 	text: height = np.float64(0.05)
+5.8896 	EXP 	text: text = 'Which one are you going to buy?'
+5.8916 	EXP 	eyetracker.setRecordingState(False)
+5.9149 	EXP 	text: height = np.float64(0.05)
+5.9149 	EXP 	text: height = np.float64(0.05)
+5.9149 	EXP 	text: height = np.float64(0.05)
+5.9149 	EXP 	text: text = 'Which one are you going to buy?'
+5.9178 	EXP 	eyetracker.setRecordingState(False)
+5.9413 	EXP 	text: height = np.float64(0.05)
+5.9413 	EXP 	text: height = np.float64(0.05)
+5.9413 	EXP 	text: height = np.float64(0.05)
+5.9413 	EXP 	text: text = 'Which one are you going to buy?'
+5.9434 	EXP 	eyetracker.setRecordingState(False)
+5.9635 	EXP 	text: height = np.float64(0.05)
+5.9635 	EXP 	text: height = np.float64(0.05)
+5.9635 	EXP 	text: height = np.float64(0.05)
+5.9635 	EXP 	text: text = 'Which one are you going to buy?'
+5.9654 	EXP 	eyetracker.setRecordingState(False)
+5.9816 	EXP 	text: height = np.float64(0.05)
+5.9816 	EXP 	text: height = np.float64(0.05)
+5.9816 	EXP 	text: height = np.float64(0.05)
+5.9816 	EXP 	text: text = 'Which one are you going to buy?'
+5.9832 	EXP 	eyetracker.setRecordingState(False)
+6.0005 	EXP 	text: height = np.float64(0.05)
+6.0005 	EXP 	text: height = np.float64(0.05)
+6.0005 	EXP 	text: height = np.float64(0.05)
+6.0005 	EXP 	text: text = 'Which one are you going to buy?'
+6.0024 	EXP 	eyetracker.setRecordingState(False)
+6.0255 	EXP 	text: height = np.float64(0.05)
+6.0255 	EXP 	text: height = np.float64(0.05)
+6.0255 	EXP 	text: height = np.float64(0.05)
+6.0255 	EXP 	text: text = 'Which one are you going to buy?'
+6.0277 	EXP 	eyetracker.setRecordingState(False)
+6.0511 	EXP 	text: height = np.float64(0.05)
+6.0511 	EXP 	text: height = np.float64(0.05)
+6.0511 	EXP 	text: height = np.float64(0.05)
+6.0511 	EXP 	text: text = 'Which one are you going to buy?'
+6.0532 	EXP 	eyetracker.setRecordingState(False)
+6.0771 	EXP 	text: height = np.float64(0.05)
+6.0771 	EXP 	text: height = np.float64(0.05)
+6.0771 	EXP 	text: height = np.float64(0.05)
+6.0771 	EXP 	text: text = 'Which one are you going to buy?'
+6.0794 	EXP 	eyetracker.setRecordingState(False)
+6.1025 	EXP 	text: height = np.float64(0.05)
+6.1025 	EXP 	text: height = np.float64(0.05)
+6.1025 	EXP 	text: height = np.float64(0.05)
+6.1025 	EXP 	text: text = 'Which one are you going to buy?'
+6.1045 	EXP 	eyetracker.setRecordingState(False)
+6.1280 	EXP 	text: height = np.float64(0.05)
+6.1280 	EXP 	text: height = np.float64(0.05)
+6.1280 	EXP 	text: height = np.float64(0.05)
+6.1280 	EXP 	text: text = 'Which one are you going to buy?'
+6.1305 	EXP 	eyetracker.setRecordingState(False)
+6.1482 	EXP 	text: height = np.float64(0.05)
+6.1482 	EXP 	text: height = np.float64(0.05)
+6.1482 	EXP 	text: height = np.float64(0.05)
+6.1482 	EXP 	text: text = 'Which one are you going to buy?'
+6.1500 	EXP 	eyetracker.setRecordingState(False)
+6.1657 	EXP 	text: height = np.float64(0.05)
+6.1657 	EXP 	text: height = np.float64(0.05)
+6.1657 	EXP 	text: height = np.float64(0.05)
+6.1657 	EXP 	text: text = 'Which one are you going to buy?'
+6.1676 	EXP 	eyetracker.setRecordingState(False)
+6.1874 	EXP 	text: height = np.float64(0.05)
+6.1874 	EXP 	text: height = np.float64(0.05)
+6.1874 	EXP 	text: height = np.float64(0.05)
+6.1874 	EXP 	text: text = 'Which one are you going to buy?'
+6.1894 	EXP 	eyetracker.setRecordingState(False)
+6.2084 	EXP 	text: height = np.float64(0.05)
+6.2084 	EXP 	text: height = np.float64(0.05)
+6.2084 	EXP 	text: height = np.float64(0.05)
+6.2084 	EXP 	text: text = 'Which one are you going to buy?'
+6.2100 	EXP 	eyetracker.setRecordingState(False)
+6.2306 	EXP 	text: height = np.float64(0.05)
+6.2306 	EXP 	text: height = np.float64(0.05)
+6.2306 	EXP 	text: height = np.float64(0.05)
+6.2306 	EXP 	text: text = 'Which one are you going to buy?'
+6.2327 	EXP 	eyetracker.setRecordingState(False)
+6.2509 	EXP 	text: height = np.float64(0.05)
+6.2509 	EXP 	text: height = np.float64(0.05)
+6.2509 	EXP 	text: height = np.float64(0.05)
+6.2509 	EXP 	text: text = 'Which one are you going to buy?'
+6.2527 	EXP 	eyetracker.setRecordingState(False)
+6.2673 	EXP 	text: height = np.float64(0.05)
+6.2673 	EXP 	text: height = np.float64(0.05)
+6.2673 	EXP 	text: height = np.float64(0.05)
+6.2673 	EXP 	text: text = 'Which one are you going to buy?'
+6.2688 	EXP 	eyetracker.setRecordingState(False)
+6.2824 	EXP 	text: height = np.float64(0.05)
+6.2824 	EXP 	text: height = np.float64(0.05)
+6.2824 	EXP 	text: height = np.float64(0.05)
+6.2824 	EXP 	text: text = 'Which one are you going to buy?'
+6.2837 	EXP 	eyetracker.setRecordingState(False)
+6.3001 	EXP 	text: height = np.float64(0.05)
+6.3001 	EXP 	text: height = np.float64(0.05)
+6.3001 	EXP 	text: height = np.float64(0.05)
+6.3001 	EXP 	text: text = 'Which one are you going to buy?'
+6.3016 	EXP 	eyetracker.setRecordingState(False)
+6.3204 	EXP 	text: height = np.float64(0.05)
+6.3204 	EXP 	text: height = np.float64(0.05)
+6.3204 	EXP 	text: height = np.float64(0.05)
+6.3204 	EXP 	text: text = 'Which one are you going to buy?'
+6.3224 	EXP 	eyetracker.setRecordingState(False)
+6.3390 	EXP 	text: height = np.float64(0.05)
+6.3390 	EXP 	text: height = np.float64(0.05)
+6.3390 	EXP 	text: height = np.float64(0.05)
+6.3390 	EXP 	text: text = 'Which one are you going to buy?'
+6.3405 	EXP 	eyetracker.setRecordingState(False)
+6.3582 	EXP 	text: height = np.float64(0.05)
+6.3582 	EXP 	text: height = np.float64(0.05)
+6.3582 	EXP 	text: height = np.float64(0.05)
+6.3582 	EXP 	text: text = 'Which one are you going to buy?'
+6.3612 	EXP 	eyetracker.setRecordingState(False)
+6.3846 	EXP 	text: height = np.float64(0.05)
+6.3846 	EXP 	text: height = np.float64(0.05)
+6.3846 	EXP 	text: height = np.float64(0.05)
+6.3846 	EXP 	text: text = 'Which one are you going to buy?'
+6.3876 	EXP 	eyetracker.setRecordingState(False)
+6.4156 	EXP 	text: height = np.float64(0.05)
+6.4156 	EXP 	text: height = np.float64(0.05)
+6.4156 	EXP 	text: height = np.float64(0.05)
+6.4156 	EXP 	text: text = 'Which one are you going to buy?'
+6.4176 	EXP 	eyetracker.setRecordingState(False)
+6.4375 	EXP 	text: height = np.float64(0.05)
+6.4375 	EXP 	text: height = np.float64(0.05)
+6.4375 	EXP 	text: height = np.float64(0.05)
+6.4375 	EXP 	text: text = 'Which one are you going to buy?'
+6.4395 	EXP 	eyetracker.setRecordingState(False)
+6.4581 	EXP 	text: height = np.float64(0.05)
+6.4581 	EXP 	text: height = np.float64(0.05)
+6.4581 	EXP 	text: height = np.float64(0.05)
+6.4581 	EXP 	text: text = 'Which one are you going to buy?'
+6.4600 	EXP 	eyetracker.setRecordingState(False)
+6.4855 	EXP 	text: height = np.float64(0.05)
+6.4855 	EXP 	text: height = np.float64(0.05)
+6.4855 	EXP 	text: height = np.float64(0.05)
+6.4855 	EXP 	text: text = 'Which one are you going to buy?'
+6.4889 	EXP 	eyetracker.setRecordingState(False)
+6.5168 	EXP 	text: height = np.float64(0.05)
+6.5168 	EXP 	text: height = np.float64(0.05)
+6.5168 	EXP 	text: height = np.float64(0.05)
+6.5168 	EXP 	text: text = 'Which one are you going to buy?'
+6.5188 	EXP 	eyetracker.setRecordingState(False)
+6.5371 	EXP 	text: height = np.float64(0.05)
+6.5371 	EXP 	text: height = np.float64(0.05)
+6.5371 	EXP 	text: height = np.float64(0.05)
+6.5371 	EXP 	text: text = 'Which one are you going to buy?'
+6.5388 	EXP 	eyetracker.setRecordingState(False)
+6.5634 	EXP 	text: height = np.float64(0.05)
+6.5634 	EXP 	text: height = np.float64(0.05)
+6.5634 	EXP 	text: height = np.float64(0.05)
+6.5634 	EXP 	text: text = 'Which one are you going to buy?'
+6.5661 	EXP 	eyetracker.setRecordingState(False)
+6.5898 	EXP 	text: height = np.float64(0.05)
+6.5898 	EXP 	text: height = np.float64(0.05)
+6.5898 	EXP 	text: height = np.float64(0.05)
+6.5898 	EXP 	text: text = 'Which one are you going to buy?'
+6.5916 	EXP 	eyetracker.setRecordingState(False)
+6.6090 	EXP 	text: height = np.float64(0.05)
+6.6090 	EXP 	text: height = np.float64(0.05)
+6.6090 	EXP 	text: height = np.float64(0.05)
+6.6090 	EXP 	text: text = 'Which one are you going to buy?'
+6.6106 	EXP 	eyetracker.setRecordingState(False)
+6.6285 	EXP 	text: height = np.float64(0.05)
+6.6285 	EXP 	text: height = np.float64(0.05)
+6.6285 	EXP 	text: height = np.float64(0.05)
+6.6285 	EXP 	text: text = 'Which one are you going to buy?'
+6.6317 	EXP 	eyetracker.setRecordingState(False)
+6.6614 	EXP 	text: height = np.float64(0.05)
+6.6614 	EXP 	text: height = np.float64(0.05)
+6.6614 	EXP 	text: height = np.float64(0.05)
+6.6614 	EXP 	text: text = 'Which one are you going to buy?'
+6.6639 	EXP 	eyetracker.setRecordingState(False)
+6.6909 	EXP 	text: height = np.float64(0.05)
+6.6909 	EXP 	text: height = np.float64(0.05)
+6.6909 	EXP 	text: height = np.float64(0.05)
+6.6909 	EXP 	text: text = 'Which one are you going to buy?'
+6.6932 	EXP 	eyetracker.setRecordingState(False)
+6.7150 	EXP 	text: height = np.float64(0.05)
+6.7150 	EXP 	text: height = np.float64(0.05)
+6.7150 	EXP 	text: height = np.float64(0.05)
+6.7150 	EXP 	text: text = 'Which one are you going to buy?'
+6.7167 	EXP 	eyetracker.setRecordingState(False)
+6.7364 	EXP 	text: height = np.float64(0.05)
+6.7364 	EXP 	text: height = np.float64(0.05)
+6.7364 	EXP 	text: height = np.float64(0.05)
+6.7364 	EXP 	text: text = 'Which one are you going to buy?'
+6.7379 	EXP 	eyetracker.setRecordingState(False)
+6.7523 	EXP 	text: height = np.float64(0.05)
+6.7523 	EXP 	text: height = np.float64(0.05)
+6.7523 	EXP 	text: height = np.float64(0.05)
+6.7523 	EXP 	text: text = 'Which one are you going to buy?'
+6.7540 	EXP 	eyetracker.setRecordingState(False)
+6.7720 	EXP 	text: height = np.float64(0.05)
+6.7720 	EXP 	text: height = np.float64(0.05)
+6.7720 	EXP 	text: height = np.float64(0.05)
+6.7720 	EXP 	text: text = 'Which one are you going to buy?'
+6.7745 	EXP 	eyetracker.setRecordingState(False)
+6.7940 	EXP 	text: height = np.float64(0.05)
+6.7940 	EXP 	text: height = np.float64(0.05)
+6.7940 	EXP 	text: height = np.float64(0.05)
+6.7940 	EXP 	text: text = 'Which one are you going to buy?'
+6.7958 	EXP 	eyetracker.setRecordingState(False)
+6.8179 	EXP 	text: height = np.float64(0.05)
+6.8179 	EXP 	text: height = np.float64(0.05)
+6.8179 	EXP 	text: height = np.float64(0.05)
+6.8179 	EXP 	text: text = 'Which one are you going to buy?'
+6.8204 	EXP 	eyetracker.setRecordingState(False)
+6.8433 	EXP 	text: height = np.float64(0.05)
+6.8433 	EXP 	text: height = np.float64(0.05)
+6.8433 	EXP 	text: height = np.float64(0.05)
+6.8433 	EXP 	text: text = 'Which one are you going to buy?'
+6.8459 	EXP 	eyetracker.setRecordingState(False)
+6.8692 	EXP 	text: height = np.float64(0.05)
+6.8692 	EXP 	text: height = np.float64(0.05)
+6.8692 	EXP 	text: height = np.float64(0.05)
+6.8692 	EXP 	text: text = 'Which one are you going to buy?'
+6.8716 	EXP 	eyetracker.setRecordingState(False)
+6.8980 	EXP 	text: height = np.float64(0.05)
+6.8980 	EXP 	text: height = np.float64(0.05)
+6.8980 	EXP 	text: height = np.float64(0.05)
+6.8980 	EXP 	text: text = 'Which one are you going to buy?'
+6.9007 	EXP 	eyetracker.setRecordingState(False)
+6.9246 	EXP 	text: height = np.float64(0.05)
+6.9246 	EXP 	text: height = np.float64(0.05)
+6.9246 	EXP 	text: height = np.float64(0.05)
+6.9246 	EXP 	text: text = 'Which one are you going to buy?'
+6.9272 	EXP 	eyetracker.setRecordingState(False)
+6.9533 	EXP 	text: height = np.float64(0.05)
+6.9533 	EXP 	text: height = np.float64(0.05)
+6.9533 	EXP 	text: height = np.float64(0.05)
+6.9533 	EXP 	text: text = 'Which one are you going to buy?'
+6.9555 	EXP 	eyetracker.setRecordingState(False)
+6.9766 	EXP 	text: height = np.float64(0.05)
+6.9766 	EXP 	text: height = np.float64(0.05)
+6.9766 	EXP 	text: height = np.float64(0.05)
+6.9766 	EXP 	text: text = 'Which one are you going to buy?'
+6.9787 	EXP 	eyetracker.setRecordingState(False)
+6.9967 	EXP 	text: height = np.float64(0.05)
+6.9967 	EXP 	text: height = np.float64(0.05)
+6.9967 	EXP 	text: height = np.float64(0.05)
+6.9967 	EXP 	text: text = 'Which one are you going to buy?'
+6.9983 	EXP 	eyetracker.setRecordingState(False)
+7.0126 	EXP 	text: height = np.float64(0.05)
+7.0126 	EXP 	text: height = np.float64(0.05)
+7.0126 	EXP 	text: height = np.float64(0.05)
+7.0126 	EXP 	text: text = 'Which one are you going to buy?'
+7.0140 	EXP 	eyetracker.setRecordingState(False)
+7.0262 	EXP 	text: height = np.float64(0.05)
+7.0262 	EXP 	text: height = np.float64(0.05)
+7.0262 	EXP 	text: height = np.float64(0.05)
+7.0262 	EXP 	text: text = 'Which one are you going to buy?'
+7.0274 	EXP 	eyetracker.setRecordingState(False)
+7.0396 	EXP 	text: height = np.float64(0.05)
+7.0396 	EXP 	text: height = np.float64(0.05)
+7.0396 	EXP 	text: height = np.float64(0.05)
+7.0396 	EXP 	text: text = 'Which one are you going to buy?'
+7.0411 	EXP 	eyetracker.setRecordingState(False)
+7.0587 	EXP 	text: height = np.float64(0.05)
+7.0587 	EXP 	text: height = np.float64(0.05)
+7.0587 	EXP 	text: height = np.float64(0.05)
+7.0587 	EXP 	text: text = 'Which one are you going to buy?'
+7.0604 	EXP 	eyetracker.setRecordingState(False)
+7.0780 	EXP 	text: height = np.float64(0.05)
+7.0780 	EXP 	text: height = np.float64(0.05)
+7.0780 	EXP 	text: height = np.float64(0.05)
+7.0780 	EXP 	text: text = 'Which one are you going to buy?'
+7.0799 	EXP 	eyetracker.setRecordingState(False)
+7.0993 	EXP 	text: height = np.float64(0.05)
+7.0993 	EXP 	text: height = np.float64(0.05)
+7.0993 	EXP 	text: height = np.float64(0.05)
+7.0993 	EXP 	text: text = 'Which one are you going to buy?'
+7.1009 	EXP 	eyetracker.setRecordingState(False)
+7.1190 	EXP 	text: height = np.float64(0.05)
+7.1190 	EXP 	text: height = np.float64(0.05)
+7.1190 	EXP 	text: height = np.float64(0.05)
+7.1190 	EXP 	text: text = 'Which one are you going to buy?'
+7.1210 	EXP 	eyetracker.setRecordingState(False)
+7.1397 	EXP 	text: height = np.float64(0.05)
+7.1397 	EXP 	text: height = np.float64(0.05)
+7.1397 	EXP 	text: height = np.float64(0.05)
+7.1397 	EXP 	text: text = 'Which one are you going to buy?'
+7.1418 	EXP 	eyetracker.setRecordingState(False)
+7.1620 	EXP 	text: height = np.float64(0.05)
+7.1620 	EXP 	text: height = np.float64(0.05)
+7.1620 	EXP 	text: height = np.float64(0.05)
+7.1620 	EXP 	text: text = 'Which one are you going to buy?'
+7.1643 	EXP 	eyetracker.setRecordingState(False)
+7.1819 	EXP 	text: height = np.float64(0.05)
+7.1819 	EXP 	text: height = np.float64(0.05)
+7.1819 	EXP 	text: height = np.float64(0.05)
+7.1819 	EXP 	text: text = 'Which one are you going to buy?'
+7.1846 	EXP 	eyetracker.setRecordingState(False)
+7.2023 	EXP 	text: height = np.float64(0.05)
+7.2023 	EXP 	text: height = np.float64(0.05)
+7.2023 	EXP 	text: height = np.float64(0.05)
+7.2023 	EXP 	text: text = 'Which one are you going to buy?'
+7.2051 	EXP 	eyetracker.setRecordingState(False)
+7.2287 	EXP 	text: height = np.float64(0.05)
+7.2287 	EXP 	text: height = np.float64(0.05)
+7.2287 	EXP 	text: height = np.float64(0.05)
+7.2287 	EXP 	text: text = 'Which one are you going to buy?'
+7.2306 	EXP 	eyetracker.setRecordingState(False)
+7.2541 	EXP 	text: height = np.float64(0.05)
+7.2541 	EXP 	text: height = np.float64(0.05)
+7.2541 	EXP 	text: height = np.float64(0.05)
+7.2541 	EXP 	text: text = 'Which one are you going to buy?'
+7.2568 	EXP 	eyetracker.setRecordingState(False)
+7.2791 	EXP 	text: height = np.float64(0.05)
+7.2791 	EXP 	text: height = np.float64(0.05)
+7.2791 	EXP 	text: height = np.float64(0.05)
+7.2791 	EXP 	text: text = 'Which one are you going to buy?'
+7.2858 	EXP 	eyetracker.setRecordingState(False)
+7.3039 	EXP 	text: height = np.float64(0.05)
+7.3039 	EXP 	text: height = np.float64(0.05)
+7.3039 	EXP 	text: height = np.float64(0.05)
+7.3039 	EXP 	text: text = 'Which one are you going to buy?'
+7.3056 	EXP 	eyetracker.setRecordingState(False)
+7.3258 	EXP 	text: height = np.float64(0.05)
+7.3258 	EXP 	text: height = np.float64(0.05)
+7.3258 	EXP 	text: height = np.float64(0.05)
+7.3258 	EXP 	text: text = 'Which one are you going to buy?'
+7.3279 	EXP 	eyetracker.setRecordingState(False)
+7.3446 	EXP 	text: height = np.float64(0.05)
+7.3446 	EXP 	text: height = np.float64(0.05)
+7.3446 	EXP 	text: height = np.float64(0.05)
+7.3446 	EXP 	text: text = 'Which one are you going to buy?'
+7.3461 	EXP 	eyetracker.setRecordingState(False)
+7.3604 	EXP 	text: height = np.float64(0.05)
+7.3604 	EXP 	text: height = np.float64(0.05)
+7.3604 	EXP 	text: height = np.float64(0.05)
+7.3604 	EXP 	text: text = 'Which one are you going to buy?'
+7.3631 	EXP 	eyetracker.setRecordingState(False)
+7.3786 	EXP 	text: height = np.float64(0.05)
+7.3786 	EXP 	text: height = np.float64(0.05)
+7.3786 	EXP 	text: height = np.float64(0.05)
+7.3786 	EXP 	text: text = 'Which one are you going to buy?'
+7.3807 	EXP 	eyetracker.setRecordingState(False)
+7.3961 	EXP 	text: height = np.float64(0.05)
+7.3961 	EXP 	text: height = np.float64(0.05)
+7.3961 	EXP 	text: height = np.float64(0.05)
+7.3961 	EXP 	text: text = 'Which one are you going to buy?'
+7.3979 	EXP 	eyetracker.setRecordingState(False)
+7.4169 	EXP 	text: height = np.float64(0.05)
+7.4169 	EXP 	text: height = np.float64(0.05)
+7.4169 	EXP 	text: height = np.float64(0.05)
+7.4169 	EXP 	text: text = 'Which one are you going to buy?'
+7.4194 	EXP 	eyetracker.setRecordingState(False)
+7.4414 	EXP 	text: height = np.float64(0.05)
+7.4414 	EXP 	text: height = np.float64(0.05)
+7.4414 	EXP 	text: height = np.float64(0.05)
+7.4414 	EXP 	text: text = 'Which one are you going to buy?'
+7.4433 	EXP 	eyetracker.setRecordingState(False)
+7.4632 	EXP 	text: height = np.float64(0.05)
+7.4632 	EXP 	text: height = np.float64(0.05)
+7.4632 	EXP 	text: height = np.float64(0.05)
+7.4632 	EXP 	text: text = 'Which one are you going to buy?'
+7.4647 	EXP 	eyetracker.setRecordingState(False)
+7.4812 	EXP 	text: height = np.float64(0.05)
+7.4812 	EXP 	text: height = np.float64(0.05)
+7.4812 	EXP 	text: height = np.float64(0.05)
+7.4812 	EXP 	text: text = 'Which one are you going to buy?'
+7.4869 	EXP 	eyetracker.setRecordingState(False)
+7.5097 	EXP 	text: height = np.float64(0.05)
+7.5097 	EXP 	text: height = np.float64(0.05)
+7.5097 	EXP 	text: height = np.float64(0.05)
+7.5097 	EXP 	text: text = 'Which one are you going to buy?'
+7.5124 	EXP 	eyetracker.setRecordingState(False)
+7.5411 	EXP 	text: height = np.float64(0.05)
+7.5411 	EXP 	text: height = np.float64(0.05)
+7.5411 	EXP 	text: height = np.float64(0.05)
+7.5411 	EXP 	text: text = 'Which one are you going to buy?'
+7.5602 	EXP 	eyetracker.setRecordingState(False)
+7.6262 	EXP 	text: height = np.float64(0.05)
+7.6262 	EXP 	text: height = np.float64(0.05)
+7.6262 	EXP 	text: height = np.float64(0.05)
+7.6262 	EXP 	text: text = 'Which one are you going to buy?'
+7.6336 	EXP 	eyetracker.setRecordingState(False)
+7.6677 	EXP 	text: height = np.float64(0.05)
+7.6677 	EXP 	text: height = np.float64(0.05)
+7.6677 	EXP 	text: height = np.float64(0.05)
+7.6677 	EXP 	text: text = 'Which one are you going to buy?'
+7.6705 	EXP 	eyetracker.setRecordingState(False)
+7.7016 	EXP 	text: height = np.float64(0.05)
+7.7016 	EXP 	text: height = np.float64(0.05)
+7.7016 	EXP 	text: height = np.float64(0.05)
+7.7016 	EXP 	text: text = 'Which one are you going to buy?'
+7.7046 	EXP 	eyetracker.setRecordingState(False)
+7.7335 	EXP 	text: height = np.float64(0.05)
+7.7335 	EXP 	text: height = np.float64(0.05)
+7.7335 	EXP 	text: height = np.float64(0.05)
+7.7335 	EXP 	text: text = 'Which one are you going to buy?'
+7.7354 	EXP 	eyetracker.setRecordingState(False)
+7.7655 	EXP 	text: height = np.float64(0.05)
+7.7655 	EXP 	text: height = np.float64(0.05)
+7.7655 	EXP 	text: height = np.float64(0.05)
+7.7655 	EXP 	text: text = 'Which one are you going to buy?'
+7.7686 	EXP 	eyetracker.setRecordingState(False)
+7.7772 	EXP 	text: height = np.float64(0.05)
+7.7772 	EXP 	text: height = np.float64(0.05)
+7.7772 	EXP 	text: height = np.float64(0.05)
+7.7772 	EXP 	text: text = 'Which one are you going to buy?'
+7.7779 	EXP 	eyetracker.setRecordingState(False)
+7.7916 	EXP 	text: height = np.float64(0.05)
+7.7916 	EXP 	text: height = np.float64(0.05)
+7.7916 	EXP 	text: height = np.float64(0.05)
+7.7916 	EXP 	text: text = 'Which one are you going to buy?'
+7.7935 	EXP 	eyetracker.setRecordingState(False)
+7.8137 	EXP 	text: height = np.float64(0.05)
+7.8137 	EXP 	text: height = np.float64(0.05)
+7.8137 	EXP 	text: height = np.float64(0.05)
+7.8137 	EXP 	text: text = 'Which one are you going to buy?'
+7.8160 	EXP 	eyetracker.setRecordingState(False)
+7.8384 	EXP 	text: height = np.float64(0.05)
+7.8384 	EXP 	text: height = np.float64(0.05)
+7.8384 	EXP 	text: height = np.float64(0.05)
+7.8384 	EXP 	text: text = 'Which one are you going to buy?'
+7.8403 	EXP 	eyetracker.setRecordingState(False)
+7.8618 	EXP 	text: height = np.float64(0.05)
+7.8618 	EXP 	text: height = np.float64(0.05)
+7.8618 	EXP 	text: height = np.float64(0.05)
+7.8618 	EXP 	text: text = 'Which one are you going to buy?'
+7.8640 	EXP 	eyetracker.setRecordingState(False)
+7.8914 	EXP 	text: height = np.float64(0.05)
+7.8914 	EXP 	text: height = np.float64(0.05)
+7.8914 	EXP 	text: height = np.float64(0.05)
+7.8914 	EXP 	text: text = 'Which one are you going to buy?'
+7.8941 	EXP 	eyetracker.setRecordingState(False)
+7.9170 	DATA 	Mouse: Left button down, pos=(1293,587)
+7.9202 	EXP 	text: height = np.float64(0.05)
+7.9202 	EXP 	text: height = np.float64(0.05)
+7.9202 	EXP 	text: height = np.float64(0.05)
+7.9202 	EXP 	text: text = 'Which one are you going to buy?'
+7.9245 	EXP 	eyetracker.setRecordingState(False)
+7.9305 	EXP 	eyetracker.setRecordingState(False)
+7.9515 	INFO 	Keyboard events cleared
+7.9505 	EXP 	text: autoDraw = False
+7.9505 	EXP 	ambewela: autoDraw = False
+7.9505 	EXP 	kothmale: autoDraw = False
+7.9505 	EXP 	happycow: autoDraw = False
+7.9505 	EXP 	kraft: autoDraw = False
+7.9505 	EXP 	richlife: autoDraw = False
+7.9505 	EXP 	text_2: autoDraw = False
+7.9505 	EXP 	text_3: autoDraw = False
+7.9505 	EXP 	text_4: autoDraw = False
+7.9505 	EXP 	text_5: autoDraw = False
+7.9505 	EXP 	text_6: autoDraw = False
+7.9505 	EXP 	text_7: autoDraw = True
+7.9505 	EXP 	highlandYoghurt: autoDraw = True
+7.9505 	EXP 	anchoryoghurt: autoDraw = True
+7.9505 	EXP 	ambewelayoghurt: autoDraw = True
+7.9505 	EXP 	pelawatteyoghurt: autoDraw = True
+7.9505 	EXP 	text_8: autoDraw = True
+7.9505 	EXP 	text_9: autoDraw = True
+7.9505 	EXP 	text_10: autoDraw = True
+7.9505 	EXP 	text_11: autoDraw = True
+7.9536 	EXP 	eyetracker.setRecordingState(False)
+7.9623 	EXP 	eyetracker.setRecordingState(False)
+7.9723 	EXP 	eyetracker.setRecordingState(False)
+7.9826 	EXP 	eyetracker.setRecordingState(False)
+7.9923 	EXP 	eyetracker.setRecordingState(False)
+8.0039 	EXP 	eyetracker.setRecordingState(False)
+8.0135 	EXP 	eyetracker.setRecordingState(False)
+8.0248 	EXP 	eyetracker.setRecordingState(False)
+8.0359 	EXP 	eyetracker.setRecordingState(False)
+8.0473 	EXP 	eyetracker.setRecordingState(False)
+8.0614 	EXP 	eyetracker.setRecordingState(False)
+8.0741 	EXP 	eyetracker.setRecordingState(False)
+8.0871 	EXP 	eyetracker.setRecordingState(False)
+8.1003 	EXP 	eyetracker.setRecordingState(False)
+8.1121 	EXP 	eyetracker.setRecordingState(False)
+8.1233 	EXP 	eyetracker.setRecordingState(False)
+8.1368 	DATA 	Mouse:  Left button up, pos=(1293,587)
+8.1393 	EXP 	eyetracker.setRecordingState(False)
+8.1506 	EXP 	eyetracker.setRecordingState(False)
+8.1641 	EXP 	eyetracker.setRecordingState(False)
+8.1781 	EXP 	eyetracker.setRecordingState(False)
+8.1889 	EXP 	eyetracker.setRecordingState(False)
+8.1988 	EXP 	eyetracker.setRecordingState(False)
+8.2070 	EXP 	eyetracker.setRecordingState(False)
+8.2170 	EXP 	eyetracker.setRecordingState(False)
+8.2271 	EXP 	eyetracker.setRecordingState(False)
+8.2374 	EXP 	eyetracker.setRecordingState(False)
+8.2483 	EXP 	eyetracker.setRecordingState(False)
+8.2604 	EXP 	eyetracker.setRecordingState(False)
+8.2707 	EXP 	eyetracker.setRecordingState(False)
+8.2835 	EXP 	eyetracker.setRecordingState(False)
+8.2964 	EXP 	eyetracker.setRecordingState(False)
+8.3078 	EXP 	eyetracker.setRecordingState(False)
+8.3183 	EXP 	eyetracker.setRecordingState(False)
+8.3302 	EXP 	eyetracker.setRecordingState(False)
+8.3418 	EXP 	eyetracker.setRecordingState(False)
+8.3521 	EXP 	eyetracker.setRecordingState(False)
+8.3619 	EXP 	eyetracker.setRecordingState(False)
+8.3711 	EXP 	eyetracker.setRecordingState(False)
+8.3800 	EXP 	eyetracker.setRecordingState(False)
+8.3906 	EXP 	eyetracker.setRecordingState(False)
+8.4006 	EXP 	eyetracker.setRecordingState(False)
+8.4107 	EXP 	eyetracker.setRecordingState(False)
+8.4215 	EXP 	eyetracker.setRecordingState(False)
+8.4322 	EXP 	eyetracker.setRecordingState(False)
+8.4419 	EXP 	eyetracker.setRecordingState(False)
+8.4497 	EXP 	eyetracker.setRecordingState(False)
+8.4576 	EXP 	eyetracker.setRecordingState(False)
+8.4663 	EXP 	eyetracker.setRecordingState(False)
+8.4754 	EXP 	eyetracker.setRecordingState(False)
+8.4852 	EXP 	eyetracker.setRecordingState(False)
+8.4951 	EXP 	eyetracker.setRecordingState(False)
+8.5050 	EXP 	eyetracker.setRecordingState(False)
+8.5171 	EXP 	eyetracker.setRecordingState(False)
+8.5276 	EXP 	eyetracker.setRecordingState(False)
+8.5385 	EXP 	eyetracker.setRecordingState(False)
+8.5484 	EXP 	eyetracker.setRecordingState(False)
+8.5587 	EXP 	eyetracker.setRecordingState(False)
+8.5695 	EXP 	eyetracker.setRecordingState(False)
+8.5815 	EXP 	eyetracker.setRecordingState(False)
+8.5922 	EXP 	eyetracker.setRecordingState(False)
+8.6024 	EXP 	eyetracker.setRecordingState(False)
+8.6135 	EXP 	eyetracker.setRecordingState(False)
+8.6241 	EXP 	eyetracker.setRecordingState(False)
+8.6363 	EXP 	eyetracker.setRecordingState(False)
+8.6467 	EXP 	eyetracker.setRecordingState(False)
+8.6578 	EXP 	eyetracker.setRecordingState(False)
+8.6684 	EXP 	eyetracker.setRecordingState(False)
+8.6794 	EXP 	eyetracker.setRecordingState(False)
+8.6900 	EXP 	eyetracker.setRecordingState(False)
+8.6995 	EXP 	eyetracker.setRecordingState(False)
+8.7105 	EXP 	eyetracker.setRecordingState(False)
+8.7223 	EXP 	eyetracker.setRecordingState(False)
+8.7333 	EXP 	eyetracker.setRecordingState(False)
+8.7429 	EXP 	eyetracker.setRecordingState(False)
+8.7534 	EXP 	eyetracker.setRecordingState(False)
+8.7648 	EXP 	eyetracker.setRecordingState(False)
+8.7776 	EXP 	eyetracker.setRecordingState(False)
+8.7895 	EXP 	eyetracker.setRecordingState(False)
+8.8029 	EXP 	eyetracker.setRecordingState(False)
+8.8160 	EXP 	eyetracker.setRecordingState(False)
+8.8267 	EXP 	eyetracker.setRecordingState(False)
+8.8375 	EXP 	eyetracker.setRecordingState(False)
+8.8481 	EXP 	eyetracker.setRecordingState(False)
+8.8601 	EXP 	eyetracker.setRecordingState(False)
+8.8714 	EXP 	eyetracker.setRecordingState(False)
+8.8813 	EXP 	eyetracker.setRecordingState(False)
+8.8910 	EXP 	eyetracker.setRecordingState(False)
+8.9022 	EXP 	eyetracker.setRecordingState(False)
+8.9147 	EXP 	eyetracker.setRecordingState(False)
+8.9274 	EXP 	eyetracker.setRecordingState(False)
+8.9375 	EXP 	eyetracker.setRecordingState(False)
+8.9483 	EXP 	eyetracker.setRecordingState(False)
+8.9590 	EXP 	eyetracker.setRecordingState(False)
+8.9692 	EXP 	eyetracker.setRecordingState(False)
+8.9782 	EXP 	eyetracker.setRecordingState(False)
+8.9909 	EXP 	eyetracker.setRecordingState(False)
+9.0016 	EXP 	eyetracker.setRecordingState(False)
+9.0117 	EXP 	eyetracker.setRecordingState(False)
+9.0242 	EXP 	eyetracker.setRecordingState(False)
+9.0342 	EXP 	eyetracker.setRecordingState(False)
+9.0448 	EXP 	eyetracker.setRecordingState(False)
+9.0585 	EXP 	eyetracker.setRecordingState(False)
+9.0689 	EXP 	eyetracker.setRecordingState(False)
+9.0821 	EXP 	eyetracker.setRecordingState(False)
+9.0942 	EXP 	eyetracker.setRecordingState(False)
+9.1056 	EXP 	eyetracker.setRecordingState(False)
+9.1178 	EXP 	eyetracker.setRecordingState(False)
+9.1299 	EXP 	eyetracker.setRecordingState(False)
+9.1410 	EXP 	eyetracker.setRecordingState(False)
+9.1542 	EXP 	eyetracker.setRecordingState(False)
+9.1662 	EXP 	eyetracker.setRecordingState(False)
+9.1785 	EXP 	eyetracker.setRecordingState(False)
+9.1901 	EXP 	eyetracker.setRecordingState(False)
+9.2005 	EXP 	eyetracker.setRecordingState(False)
+9.2133 	EXP 	eyetracker.setRecordingState(False)
+9.2224 	EXP 	eyetracker.setRecordingState(False)
+9.2318 	EXP 	eyetracker.setRecordingState(False)
+9.2412 	EXP 	eyetracker.setRecordingState(False)
+9.2509 	EXP 	eyetracker.setRecordingState(False)
+9.2614 	EXP 	eyetracker.setRecordingState(False)
+9.2710 	EXP 	eyetracker.setRecordingState(False)
+9.2812 	EXP 	eyetracker.setRecordingState(False)
+9.2899 	EXP 	eyetracker.setRecordingState(False)
+9.2987 	EXP 	eyetracker.setRecordingState(False)
+9.3077 	EXP 	eyetracker.setRecordingState(False)
+9.3176 	EXP 	eyetracker.setRecordingState(False)
+9.3296 	EXP 	eyetracker.setRecordingState(False)
+9.3406 	EXP 	eyetracker.setRecordingState(False)
+9.3518 	EXP 	eyetracker.setRecordingState(False)
+9.3627 	EXP 	eyetracker.setRecordingState(False)
+9.3727 	EXP 	eyetracker.setRecordingState(False)
+9.3842 	EXP 	eyetracker.setRecordingState(False)
+9.3938 	EXP 	eyetracker.setRecordingState(False)
+9.4032 	EXP 	eyetracker.setRecordingState(False)
+9.4084 	DATA 	Mouse: Left button down, pos=(1293,587)
+9.4153 	EXP 	eyetracker.setRecordingState(False)
+9.4672 	EXP 	eyetracker.clearEvents()
+9.4683 	EXP 	eyetracker.setRecordingState(True)
+9.4687 	EXP 	eyetracker.setRecordingState(False)
+9.4826 	INFO 	Keyboard events cleared
+9.4818 	EXP 	text_7: autoDraw = False
+9.4818 	EXP 	highlandYoghurt: autoDraw = False
+9.4818 	EXP 	anchoryoghurt: autoDraw = False
+9.4818 	EXP 	ambewelayoghurt: autoDraw = False
+9.4818 	EXP 	pelawatteyoghurt: autoDraw = False
+9.4818 	EXP 	text_8: autoDraw = False
+9.4818 	EXP 	text_9: autoDraw = False
+9.4818 	EXP 	text_10: autoDraw = False
+9.4818 	EXP 	text_11: autoDraw = False
+9.4818 	EXP 	ambewela: image = 'ambewelacheese.jpg'
+9.4818 	EXP 	kothmale: image = 'kothmale cheese.jpg'
+9.4818 	EXP 	happycow: image = 'happycow.jpeg'
+9.4818 	EXP 	kraft: image = 'Kraft cheese.jpeg'
+9.4818 	EXP 	richlife: image = 'richlifecheese.jpg'
+9.4818 	EXP 	text: autoDraw = True
+9.4818 	EXP 	ambewela: autoDraw = True
+9.4818 	EXP 	kothmale: autoDraw = True
+9.4818 	EXP 	happycow: autoDraw = True
+9.4818 	EXP 	kraft: autoDraw = True
+9.4818 	EXP 	richlife: autoDraw = True
+9.4818 	EXP 	text_2: autoDraw = True
+9.4818 	EXP 	text_3: autoDraw = True
+9.4818 	EXP 	text_4: autoDraw = True
+9.4818 	EXP 	text_5: autoDraw = True
+9.4818 	EXP 	text_6: autoDraw = True
+9.4818 	EXP 	text: height = np.float64(0.05)
+9.4818 	EXP 	text: height = np.float64(0.05)
+9.4818 	EXP 	text: height = np.float64(0.05)
+9.4818 	EXP 	text: text = 'Which one are you going to buy?'
+9.4838 	EXP 	eyetracker.setRecordingState(False)
+9.5004 	EXP 	text: height = np.float64(0.05)
+9.5004 	EXP 	text: height = np.float64(0.05)
+9.5004 	EXP 	text: height = np.float64(0.05)
+9.5004 	EXP 	text: text = 'Which one are you going to buy?'
+9.5023 	EXP 	eyetracker.setRecordingState(False)
+9.5182 	EXP 	text: height = np.float64(0.05)
+9.5182 	EXP 	text: height = np.float64(0.05)
+9.5182 	EXP 	text: height = np.float64(0.05)
+9.5182 	EXP 	text: text = 'Which one are you going to buy?'
+9.5197 	EXP 	eyetracker.setRecordingState(False)
+9.5357 	EXP 	text: height = np.float64(0.05)
+9.5357 	EXP 	text: height = np.float64(0.05)
+9.5357 	EXP 	text: height = np.float64(0.05)
+9.5357 	EXP 	text: text = 'Which one are you going to buy?'
+9.5375 	EXP 	eyetracker.setRecordingState(False)
+9.5536 	EXP 	text: height = np.float64(0.05)
+9.5536 	EXP 	text: height = np.float64(0.05)
+9.5536 	EXP 	text: height = np.float64(0.05)
+9.5536 	EXP 	text: text = 'Which one are you going to buy?'
+9.5550 	EXP 	eyetracker.setRecordingState(False)
+9.5709 	EXP 	text: height = np.float64(0.05)
+9.5709 	EXP 	text: height = np.float64(0.05)
+9.5709 	EXP 	text: height = np.float64(0.05)
+9.5709 	EXP 	text: text = 'Which one are you going to buy?'
+9.5728 	EXP 	eyetracker.setRecordingState(False)
+9.5930 	EXP 	text: height = np.float64(0.05)
+9.5930 	EXP 	text: height = np.float64(0.05)
+9.5930 	EXP 	text: height = np.float64(0.05)
+9.5930 	EXP 	text: text = 'Which one are you going to buy?'
+9.5955 	EXP 	eyetracker.setRecordingState(False)
+9.6116 	EXP 	text: height = np.float64(0.05)
+9.6116 	EXP 	text: height = np.float64(0.05)
+9.6116 	EXP 	text: height = np.float64(0.05)
+9.6116 	EXP 	text: text = 'Which one are you going to buy?'
+9.6135 	EXP 	eyetracker.setRecordingState(False)
+9.6298 	EXP 	text: height = np.float64(0.05)
+9.6298 	EXP 	text: height = np.float64(0.05)
+9.6298 	EXP 	text: height = np.float64(0.05)
+9.6298 	EXP 	text: text = 'Which one are you going to buy?'
+9.6321 	EXP 	eyetracker.setRecordingState(False)
+9.6451 	DATA 	Mouse:  Left button up, pos=(1293,587)
+9.6481 	EXP 	text: height = np.float64(0.05)
+9.6481 	EXP 	text: height = np.float64(0.05)
+9.6481 	EXP 	text: height = np.float64(0.05)
+9.6481 	EXP 	text: text = 'Which one are you going to buy?'
+9.6501 	EXP 	eyetracker.setRecordingState(False)
+9.6631 	EXP 	text: height = np.float64(0.05)
+9.6631 	EXP 	text: height = np.float64(0.05)
+9.6631 	EXP 	text: height = np.float64(0.05)
+9.6631 	EXP 	text: text = 'Which one are you going to buy?'
+9.6644 	EXP 	eyetracker.setRecordingState(False)
+9.6776 	EXP 	text: height = np.float64(0.05)
+9.6776 	EXP 	text: height = np.float64(0.05)
+9.6776 	EXP 	text: height = np.float64(0.05)
+9.6776 	EXP 	text: text = 'Which one are you going to buy?'
+9.6797 	EXP 	eyetracker.setRecordingState(False)
+9.6950 	EXP 	text: height = np.float64(0.05)
+9.6950 	EXP 	text: height = np.float64(0.05)
+9.6950 	EXP 	text: height = np.float64(0.05)
+9.6950 	EXP 	text: text = 'Which one are you going to buy?'
+9.6964 	EXP 	eyetracker.setRecordingState(False)
+9.7105 	EXP 	text: height = np.float64(0.05)
+9.7105 	EXP 	text: height = np.float64(0.05)
+9.7105 	EXP 	text: height = np.float64(0.05)
+9.7105 	EXP 	text: text = 'Which one are you going to buy?'
+9.7121 	EXP 	eyetracker.setRecordingState(False)
+9.7258 	EXP 	text: height = np.float64(0.05)
+9.7258 	EXP 	text: height = np.float64(0.05)
+9.7258 	EXP 	text: height = np.float64(0.05)
+9.7258 	EXP 	text: text = 'Which one are you going to buy?'
+9.7274 	EXP 	eyetracker.setRecordingState(False)
+9.7429 	EXP 	text: height = np.float64(0.05)
+9.7429 	EXP 	text: height = np.float64(0.05)
+9.7429 	EXP 	text: height = np.float64(0.05)
+9.7429 	EXP 	text: text = 'Which one are you going to buy?'
+9.7443 	EXP 	eyetracker.setRecordingState(False)
+9.7582 	EXP 	text: height = np.float64(0.05)
+9.7582 	EXP 	text: height = np.float64(0.05)
+9.7582 	EXP 	text: height = np.float64(0.05)
+9.7582 	EXP 	text: text = 'Which one are you going to buy?'
+9.7597 	EXP 	eyetracker.setRecordingState(False)
+9.7764 	EXP 	text: height = np.float64(0.05)
+9.7764 	EXP 	text: height = np.float64(0.05)
+9.7764 	EXP 	text: height = np.float64(0.05)
+9.7764 	EXP 	text: text = 'Which one are you going to buy?'
+9.7778 	EXP 	eyetracker.setRecordingState(False)
+9.7936 	EXP 	text: height = np.float64(0.05)
+9.7936 	EXP 	text: height = np.float64(0.05)
+9.7936 	EXP 	text: height = np.float64(0.05)
+9.7936 	EXP 	text: text = 'Which one are you going to buy?'
+9.7953 	EXP 	eyetracker.setRecordingState(False)
+9.8088 	EXP 	text: height = np.float64(0.05)
+9.8088 	EXP 	text: height = np.float64(0.05)
+9.8088 	EXP 	text: height = np.float64(0.05)
+9.8088 	EXP 	text: text = 'Which one are you going to buy?'
+9.8105 	EXP 	eyetracker.setRecordingState(False)
+9.8274 	EXP 	text: height = np.float64(0.05)
+9.8274 	EXP 	text: height = np.float64(0.05)
+9.8274 	EXP 	text: height = np.float64(0.05)
+9.8274 	EXP 	text: text = 'Which one are you going to buy?'
+9.8292 	EXP 	eyetracker.setRecordingState(False)
+9.8483 	EXP 	text: height = np.float64(0.05)
+9.8483 	EXP 	text: height = np.float64(0.05)
+9.8483 	EXP 	text: height = np.float64(0.05)
+9.8483 	EXP 	text: text = 'Which one are you going to buy?'
+9.8500 	EXP 	eyetracker.setRecordingState(False)
+9.8655 	EXP 	text: height = np.float64(0.05)
+9.8655 	EXP 	text: height = np.float64(0.05)
+9.8655 	EXP 	text: height = np.float64(0.05)
+9.8655 	EXP 	text: text = 'Which one are you going to buy?'
+9.8675 	EXP 	eyetracker.setRecordingState(False)
+9.8837 	EXP 	text: height = np.float64(0.05)
+9.8837 	EXP 	text: height = np.float64(0.05)
+9.8837 	EXP 	text: height = np.float64(0.05)
+9.8837 	EXP 	text: text = 'Which one are you going to buy?'
+9.8857 	EXP 	eyetracker.setRecordingState(False)
+9.8992 	EXP 	text: height = np.float64(0.05)
+9.8992 	EXP 	text: height = np.float64(0.05)
+9.8992 	EXP 	text: height = np.float64(0.05)
+9.8992 	EXP 	text: text = 'Which one are you going to buy?'
+9.9004 	EXP 	eyetracker.setRecordingState(False)
+9.9111 	EXP 	text: height = np.float64(0.05)
+9.9111 	EXP 	text: height = np.float64(0.05)
+9.9111 	EXP 	text: height = np.float64(0.05)
+9.9111 	EXP 	text: text = 'Which one are you going to buy?'
+9.9123 	EXP 	eyetracker.setRecordingState(False)
+9.9247 	EXP 	text: height = np.float64(0.05)
+9.9247 	EXP 	text: height = np.float64(0.05)
+9.9247 	EXP 	text: height = np.float64(0.05)
+9.9247 	EXP 	text: text = 'Which one are you going to buy?'
+9.9265 	EXP 	eyetracker.setRecordingState(False)
+9.9420 	EXP 	text: height = np.float64(0.05)
+9.9420 	EXP 	text: height = np.float64(0.05)
+9.9420 	EXP 	text: height = np.float64(0.05)
+9.9420 	EXP 	text: text = 'Which one are you going to buy?'
+9.9433 	EXP 	eyetracker.setRecordingState(False)
+9.9564 	EXP 	text: height = np.float64(0.05)
+9.9564 	EXP 	text: height = np.float64(0.05)
+9.9564 	EXP 	text: height = np.float64(0.05)
+9.9564 	EXP 	text: text = 'Which one are you going to buy?'
+9.9577 	EXP 	eyetracker.setRecordingState(False)
+9.9697 	EXP 	text: height = np.float64(0.05)
+9.9697 	EXP 	text: height = np.float64(0.05)
+9.9697 	EXP 	text: height = np.float64(0.05)
+9.9697 	EXP 	text: text = 'Which one are you going to buy?'
+9.9709 	EXP 	eyetracker.setRecordingState(False)
+9.9820 	EXP 	text: height = np.float64(0.05)
+9.9820 	EXP 	text: height = np.float64(0.05)
+9.9820 	EXP 	text: height = np.float64(0.05)
+9.9820 	EXP 	text: text = 'Which one are you going to buy?'
+9.9831 	EXP 	eyetracker.setRecordingState(False)
+9.9960 	EXP 	text: height = np.float64(0.05)
+9.9960 	EXP 	text: height = np.float64(0.05)
+9.9960 	EXP 	text: height = np.float64(0.05)
+9.9960 	EXP 	text: text = 'Which one are you going to buy?'
+9.9973 	EXP 	eyetracker.setRecordingState(False)
+10.0106 	EXP 	text: height = np.float64(0.05)
+10.0106 	EXP 	text: height = np.float64(0.05)
+10.0106 	EXP 	text: height = np.float64(0.05)
+10.0106 	EXP 	text: text = 'Which one are you going to buy?'
+10.0121 	EXP 	eyetracker.setRecordingState(False)
+10.0255 	EXP 	text: height = np.float64(0.05)
+10.0255 	EXP 	text: height = np.float64(0.05)
+10.0255 	EXP 	text: height = np.float64(0.05)
+10.0255 	EXP 	text: text = 'Which one are you going to buy?'
+10.0267 	EXP 	eyetracker.setRecordingState(False)
+10.0385 	EXP 	text: height = np.float64(0.05)
+10.0385 	EXP 	text: height = np.float64(0.05)
+10.0385 	EXP 	text: height = np.float64(0.05)
+10.0385 	EXP 	text: text = 'Which one are you going to buy?'
+10.0397 	EXP 	eyetracker.setRecordingState(False)
+10.0516 	EXP 	text: height = np.float64(0.05)
+10.0516 	EXP 	text: height = np.float64(0.05)
+10.0516 	EXP 	text: height = np.float64(0.05)
+10.0516 	EXP 	text: text = 'Which one are you going to buy?'
+10.0526 	EXP 	eyetracker.setRecordingState(False)
+10.0661 	EXP 	text: height = np.float64(0.05)
+10.0661 	EXP 	text: height = np.float64(0.05)
+10.0661 	EXP 	text: height = np.float64(0.05)
+10.0661 	EXP 	text: text = 'Which one are you going to buy?'
+10.0677 	EXP 	eyetracker.setRecordingState(False)
+10.0831 	EXP 	text: height = np.float64(0.05)
+10.0831 	EXP 	text: height = np.float64(0.05)
+10.0831 	EXP 	text: height = np.float64(0.05)
+10.0831 	EXP 	text: text = 'Which one are you going to buy?'
+10.0846 	EXP 	eyetracker.setRecordingState(False)
+10.0991 	EXP 	text: height = np.float64(0.05)
+10.0991 	EXP 	text: height = np.float64(0.05)
+10.0991 	EXP 	text: height = np.float64(0.05)
+10.0991 	EXP 	text: text = 'Which one are you going to buy?'
+10.1013 	EXP 	eyetracker.setRecordingState(False)
+10.1185 	EXP 	text: height = np.float64(0.05)
+10.1185 	EXP 	text: height = np.float64(0.05)
+10.1185 	EXP 	text: height = np.float64(0.05)
+10.1185 	EXP 	text: text = 'Which one are you going to buy?'
+10.1206 	EXP 	eyetracker.setRecordingState(False)
+10.1359 	EXP 	text: height = np.float64(0.05)
+10.1359 	EXP 	text: height = np.float64(0.05)
+10.1359 	EXP 	text: height = np.float64(0.05)
+10.1359 	EXP 	text: text = 'Which one are you going to buy?'
+10.1376 	EXP 	eyetracker.setRecordingState(False)
+10.1529 	EXP 	text: height = np.float64(0.05)
+10.1529 	EXP 	text: height = np.float64(0.05)
+10.1529 	EXP 	text: height = np.float64(0.05)
+10.1529 	EXP 	text: text = 'Which one are you going to buy?'
+10.1544 	EXP 	eyetracker.setRecordingState(False)
+10.1676 	EXP 	text: height = np.float64(0.05)
+10.1676 	EXP 	text: height = np.float64(0.05)
+10.1676 	EXP 	text: height = np.float64(0.05)
+10.1676 	EXP 	text: text = 'Which one are you going to buy?'
+10.1691 	EXP 	eyetracker.setRecordingState(False)
+10.1838 	EXP 	text: height = np.float64(0.05)
+10.1838 	EXP 	text: height = np.float64(0.05)
+10.1838 	EXP 	text: height = np.float64(0.05)
+10.1838 	EXP 	text: text = 'Which one are you going to buy?'
+10.1854 	EXP 	eyetracker.setRecordingState(False)
+10.2021 	EXP 	text: height = np.float64(0.05)
+10.2021 	EXP 	text: height = np.float64(0.05)
+10.2021 	EXP 	text: height = np.float64(0.05)
+10.2021 	EXP 	text: text = 'Which one are you going to buy?'
+10.2037 	EXP 	eyetracker.setRecordingState(False)
+10.2190 	EXP 	text: height = np.float64(0.05)
+10.2190 	EXP 	text: height = np.float64(0.05)
+10.2190 	EXP 	text: height = np.float64(0.05)
+10.2190 	EXP 	text: text = 'Which one are you going to buy?'
+10.2207 	EXP 	eyetracker.setRecordingState(False)
+10.2377 	EXP 	text: height = np.float64(0.05)
+10.2377 	EXP 	text: height = np.float64(0.05)
+10.2377 	EXP 	text: height = np.float64(0.05)
+10.2377 	EXP 	text: text = 'Which one are you going to buy?'
+10.2397 	EXP 	eyetracker.setRecordingState(False)
+10.2576 	EXP 	text: height = np.float64(0.05)
+10.2576 	EXP 	text: height = np.float64(0.05)
+10.2576 	EXP 	text: height = np.float64(0.05)
+10.2576 	EXP 	text: text = 'Which one are you going to buy?'
+10.2592 	EXP 	eyetracker.setRecordingState(False)
+10.2729 	EXP 	text: height = np.float64(0.05)
+10.2729 	EXP 	text: height = np.float64(0.05)
+10.2729 	EXP 	text: height = np.float64(0.05)
+10.2729 	EXP 	text: text = 'Which one are you going to buy?'
+10.2740 	EXP 	eyetracker.setRecordingState(False)
+10.2878 	EXP 	text: height = np.float64(0.05)
+10.2878 	EXP 	text: height = np.float64(0.05)
+10.2878 	EXP 	text: height = np.float64(0.05)
+10.2878 	EXP 	text: text = 'Which one are you going to buy?'
+10.2899 	EXP 	eyetracker.setRecordingState(False)
+10.3067 	EXP 	text: height = np.float64(0.05)
+10.3067 	EXP 	text: height = np.float64(0.05)
+10.3067 	EXP 	text: height = np.float64(0.05)
+10.3067 	EXP 	text: text = 'Which one are you going to buy?'
+10.3091 	EXP 	eyetracker.setRecordingState(False)
+10.3235 	EXP 	text: height = np.float64(0.05)
+10.3235 	EXP 	text: height = np.float64(0.05)
+10.3235 	EXP 	text: height = np.float64(0.05)
+10.3235 	EXP 	text: text = 'Which one are you going to buy?'
+10.3248 	EXP 	eyetracker.setRecordingState(False)
+10.3370 	EXP 	text: height = np.float64(0.05)
+10.3370 	EXP 	text: height = np.float64(0.05)
+10.3370 	EXP 	text: height = np.float64(0.05)
+10.3370 	EXP 	text: text = 'Which one are you going to buy?'
+10.3382 	EXP 	eyetracker.setRecordingState(False)
+10.3556 	EXP 	text: height = np.float64(0.05)
+10.3556 	EXP 	text: height = np.float64(0.05)
+10.3556 	EXP 	text: height = np.float64(0.05)
+10.3556 	EXP 	text: text = 'Which one are you going to buy?'
+10.3576 	EXP 	eyetracker.setRecordingState(False)
+10.3766 	EXP 	text: height = np.float64(0.05)
+10.3766 	EXP 	text: height = np.float64(0.05)
+10.3766 	EXP 	text: height = np.float64(0.05)
+10.3766 	EXP 	text: text = 'Which one are you going to buy?'
+10.3786 	EXP 	eyetracker.setRecordingState(False)
+10.3969 	EXP 	text: height = np.float64(0.05)
+10.3969 	EXP 	text: height = np.float64(0.05)
+10.3969 	EXP 	text: height = np.float64(0.05)
+10.3969 	EXP 	text: text = 'Which one are you going to buy?'
+10.3988 	EXP 	eyetracker.setRecordingState(False)
+10.4173 	EXP 	text: height = np.float64(0.05)
+10.4173 	EXP 	text: height = np.float64(0.05)
+10.4173 	EXP 	text: height = np.float64(0.05)
+10.4173 	EXP 	text: text = 'Which one are you going to buy?'
+10.4195 	EXP 	eyetracker.setRecordingState(False)
+10.4392 	EXP 	text: height = np.float64(0.05)
+10.4392 	EXP 	text: height = np.float64(0.05)
+10.4392 	EXP 	text: height = np.float64(0.05)
+10.4392 	EXP 	text: text = 'Which one are you going to buy?'
+10.4415 	EXP 	eyetracker.setRecordingState(False)
+10.4583 	EXP 	text: height = np.float64(0.05)
+10.4583 	EXP 	text: height = np.float64(0.05)
+10.4583 	EXP 	text: height = np.float64(0.05)
+10.4583 	EXP 	text: text = 'Which one are you going to buy?'
+10.4598 	EXP 	eyetracker.setRecordingState(False)
+10.4733 	EXP 	text: height = np.float64(0.05)
+10.4733 	EXP 	text: height = np.float64(0.05)
+10.4733 	EXP 	text: height = np.float64(0.05)
+10.4733 	EXP 	text: text = 'Which one are you going to buy?'
+10.4750 	EXP 	eyetracker.setRecordingState(False)
+10.4920 	EXP 	text: height = np.float64(0.05)
+10.4920 	EXP 	text: height = np.float64(0.05)
+10.4920 	EXP 	text: height = np.float64(0.05)
+10.4920 	EXP 	text: text = 'Which one are you going to buy?'
+10.4939 	EXP 	eyetracker.setRecordingState(False)
+10.5134 	EXP 	text: height = np.float64(0.05)
+10.5134 	EXP 	text: height = np.float64(0.05)
+10.5134 	EXP 	text: height = np.float64(0.05)
+10.5134 	EXP 	text: text = 'Which one are you going to buy?'
+10.5152 	EXP 	eyetracker.setRecordingState(False)
+10.5360 	EXP 	text: height = np.float64(0.05)
+10.5360 	EXP 	text: height = np.float64(0.05)
+10.5360 	EXP 	text: height = np.float64(0.05)
+10.5360 	EXP 	text: text = 'Which one are you going to buy?'
+10.5382 	EXP 	eyetracker.setRecordingState(False)
+10.5571 	EXP 	text: height = np.float64(0.05)
+10.5571 	EXP 	text: height = np.float64(0.05)
+10.5571 	EXP 	text: height = np.float64(0.05)
+10.5571 	EXP 	text: text = 'Which one are you going to buy?'
+10.5594 	EXP 	eyetracker.setRecordingState(False)
+10.5770 	EXP 	text: height = np.float64(0.05)
+10.5770 	EXP 	text: height = np.float64(0.05)
+10.5770 	EXP 	text: height = np.float64(0.05)
+10.5770 	EXP 	text: text = 'Which one are you going to buy?'
+10.5789 	EXP 	eyetracker.setRecordingState(False)
+10.5979 	EXP 	text: height = np.float64(0.05)
+10.5979 	EXP 	text: height = np.float64(0.05)
+10.5979 	EXP 	text: height = np.float64(0.05)
+10.5979 	EXP 	text: text = 'Which one are you going to buy?'
+10.5997 	EXP 	eyetracker.setRecordingState(False)
+10.6176 	EXP 	text: height = np.float64(0.05)
+10.6176 	EXP 	text: height = np.float64(0.05)
+10.6176 	EXP 	text: height = np.float64(0.05)
+10.6176 	EXP 	text: text = 'Which one are you going to buy?'
+10.6191 	EXP 	eyetracker.setRecordingState(False)
+10.6329 	EXP 	text: height = np.float64(0.05)
+10.6329 	EXP 	text: height = np.float64(0.05)
+10.6329 	EXP 	text: height = np.float64(0.05)
+10.6329 	EXP 	text: text = 'Which one are you going to buy?'
+10.6342 	EXP 	eyetracker.setRecordingState(False)
+10.6482 	EXP 	text: height = np.float64(0.05)
+10.6482 	EXP 	text: height = np.float64(0.05)
+10.6482 	EXP 	text: height = np.float64(0.05)
+10.6482 	EXP 	text: text = 'Which one are you going to buy?'
+10.6504 	EXP 	eyetracker.setRecordingState(False)
+10.6664 	EXP 	text: height = np.float64(0.05)
+10.6664 	EXP 	text: height = np.float64(0.05)
+10.6664 	EXP 	text: height = np.float64(0.05)
+10.6664 	EXP 	text: text = 'Which one are you going to buy?'
+10.6676 	EXP 	eyetracker.setRecordingState(False)
+10.6815 	EXP 	text: height = np.float64(0.05)
+10.6815 	EXP 	text: height = np.float64(0.05)
+10.6815 	EXP 	text: height = np.float64(0.05)
+10.6815 	EXP 	text: text = 'Which one are you going to buy?'
+10.6833 	EXP 	eyetracker.setRecordingState(False)
+10.7004 	EXP 	text: height = np.float64(0.05)
+10.7004 	EXP 	text: height = np.float64(0.05)
+10.7004 	EXP 	text: height = np.float64(0.05)
+10.7004 	EXP 	text: text = 'Which one are you going to buy?'
+10.7023 	EXP 	eyetracker.setRecordingState(False)
+10.7195 	EXP 	text: height = np.float64(0.05)
+10.7195 	EXP 	text: height = np.float64(0.05)
+10.7195 	EXP 	text: height = np.float64(0.05)
+10.7195 	EXP 	text: text = 'Which one are you going to buy?'
+10.7215 	EXP 	eyetracker.setRecordingState(False)
+10.7380 	EXP 	text: height = np.float64(0.05)
+10.7380 	EXP 	text: height = np.float64(0.05)
+10.7380 	EXP 	text: height = np.float64(0.05)
+10.7380 	EXP 	text: text = 'Which one are you going to buy?'
+10.7400 	EXP 	eyetracker.setRecordingState(False)
+10.7581 	EXP 	text: height = np.float64(0.05)
+10.7581 	EXP 	text: height = np.float64(0.05)
+10.7581 	EXP 	text: height = np.float64(0.05)
+10.7581 	EXP 	text: text = 'Which one are you going to buy?'
+10.7598 	EXP 	eyetracker.setRecordingState(False)
+10.7763 	EXP 	text: height = np.float64(0.05)
+10.7763 	EXP 	text: height = np.float64(0.05)
+10.7763 	EXP 	text: height = np.float64(0.05)
+10.7763 	EXP 	text: text = 'Which one are you going to buy?'
+10.7778 	EXP 	eyetracker.setRecordingState(False)
+10.7947 	EXP 	text: height = np.float64(0.05)
+10.7947 	EXP 	text: height = np.float64(0.05)
+10.7947 	EXP 	text: height = np.float64(0.05)
+10.7947 	EXP 	text: text = 'Which one are you going to buy?'
+10.7966 	EXP 	eyetracker.setRecordingState(False)
+10.8151 	EXP 	text: height = np.float64(0.05)
+10.8151 	EXP 	text: height = np.float64(0.05)
+10.8151 	EXP 	text: height = np.float64(0.05)
+10.8151 	EXP 	text: text = 'Which one are you going to buy?'
+10.8170 	EXP 	eyetracker.setRecordingState(False)
+10.8350 	EXP 	text: height = np.float64(0.05)
+10.8350 	EXP 	text: height = np.float64(0.05)
+10.8350 	EXP 	text: height = np.float64(0.05)
+10.8350 	EXP 	text: text = 'Which one are you going to buy?'
+10.8371 	EXP 	eyetracker.setRecordingState(False)
+10.8574 	EXP 	text: height = np.float64(0.05)
+10.8574 	EXP 	text: height = np.float64(0.05)
+10.8574 	EXP 	text: height = np.float64(0.05)
+10.8574 	EXP 	text: text = 'Which one are you going to buy?'
+10.8595 	EXP 	eyetracker.setRecordingState(False)
+10.8813 	EXP 	text: height = np.float64(0.05)
+10.8813 	EXP 	text: height = np.float64(0.05)
+10.8813 	EXP 	text: height = np.float64(0.05)
+10.8813 	EXP 	text: text = 'Which one are you going to buy?'
+10.8833 	EXP 	eyetracker.setRecordingState(False)
+10.9025 	EXP 	text: height = np.float64(0.05)
+10.9025 	EXP 	text: height = np.float64(0.05)
+10.9025 	EXP 	text: height = np.float64(0.05)
+10.9025 	EXP 	text: text = 'Which one are you going to buy?'
+10.9044 	EXP 	eyetracker.setRecordingState(False)
+10.9221 	EXP 	text: height = np.float64(0.05)
+10.9221 	EXP 	text: height = np.float64(0.05)
+10.9221 	EXP 	text: height = np.float64(0.05)
+10.9221 	EXP 	text: text = 'Which one are you going to buy?'
+10.9239 	EXP 	eyetracker.setRecordingState(False)
+10.9391 	EXP 	text: height = np.float64(0.05)
+10.9391 	EXP 	text: height = np.float64(0.05)
+10.9391 	EXP 	text: height = np.float64(0.05)
+10.9391 	EXP 	text: text = 'Which one are you going to buy?'
+10.9414 	EXP 	eyetracker.setRecordingState(False)
+10.9585 	EXP 	text: height = np.float64(0.05)
+10.9585 	EXP 	text: height = np.float64(0.05)
+10.9585 	EXP 	text: height = np.float64(0.05)
+10.9585 	EXP 	text: text = 'Which one are you going to buy?'
+10.9606 	EXP 	eyetracker.setRecordingState(False)
+10.9768 	EXP 	text: height = np.float64(0.05)
+10.9768 	EXP 	text: height = np.float64(0.05)
+10.9768 	EXP 	text: height = np.float64(0.05)
+10.9768 	EXP 	text: text = 'Which one are you going to buy?'
+10.9785 	EXP 	eyetracker.setRecordingState(False)
+10.9940 	EXP 	text: height = np.float64(0.05)
+10.9940 	EXP 	text: height = np.float64(0.05)
+10.9940 	EXP 	text: height = np.float64(0.05)
+10.9940 	EXP 	text: text = 'Which one are you going to buy?'
+10.9958 	EXP 	eyetracker.setRecordingState(False)
+11.0119 	EXP 	text: height = np.float64(0.05)
+11.0119 	EXP 	text: height = np.float64(0.05)
+11.0119 	EXP 	text: height = np.float64(0.05)
+11.0119 	EXP 	text: text = 'Which one are you going to buy?'
+11.0137 	EXP 	eyetracker.setRecordingState(False)
+11.0324 	EXP 	text: height = np.float64(0.05)
+11.0324 	EXP 	text: height = np.float64(0.05)
+11.0324 	EXP 	text: height = np.float64(0.05)
+11.0324 	EXP 	text: text = 'Which one are you going to buy?'
+11.0342 	EXP 	eyetracker.setRecordingState(False)
+11.0522 	EXP 	text: height = np.float64(0.05)
+11.0522 	EXP 	text: height = np.float64(0.05)
+11.0522 	EXP 	text: height = np.float64(0.05)
+11.0522 	EXP 	text: text = 'Which one are you going to buy?'
+11.0537 	EXP 	eyetracker.setRecordingState(False)
+11.0688 	EXP 	text: height = np.float64(0.05)
+11.0688 	EXP 	text: height = np.float64(0.05)
+11.0688 	EXP 	text: height = np.float64(0.05)
+11.0688 	EXP 	text: text = 'Which one are you going to buy?'
+11.0706 	EXP 	eyetracker.setRecordingState(False)
+11.0876 	EXP 	text: height = np.float64(0.05)
+11.0876 	EXP 	text: height = np.float64(0.05)
+11.0876 	EXP 	text: height = np.float64(0.05)
+11.0876 	EXP 	text: text = 'Which one are you going to buy?'
+11.0893 	EXP 	eyetracker.setRecordingState(False)
+11.1065 	EXP 	text: height = np.float64(0.05)
+11.1065 	EXP 	text: height = np.float64(0.05)
+11.1065 	EXP 	text: height = np.float64(0.05)
+11.1065 	EXP 	text: text = 'Which one are you going to buy?'
+11.1085 	EXP 	eyetracker.setRecordingState(False)
+11.1241 	EXP 	text: height = np.float64(0.05)
+11.1241 	EXP 	text: height = np.float64(0.05)
+11.1241 	EXP 	text: height = np.float64(0.05)
+11.1241 	EXP 	text: text = 'Which one are you going to buy?'
+11.1255 	EXP 	eyetracker.setRecordingState(False)
+11.1420 	EXP 	text: height = np.float64(0.05)
+11.1420 	EXP 	text: height = np.float64(0.05)
+11.1420 	EXP 	text: height = np.float64(0.05)
+11.1420 	EXP 	text: text = 'Which one are you going to buy?'
+11.1440 	EXP 	eyetracker.setRecordingState(False)
+11.1602 	EXP 	text: height = np.float64(0.05)
+11.1602 	EXP 	text: height = np.float64(0.05)
+11.1602 	EXP 	text: height = np.float64(0.05)
+11.1602 	EXP 	text: text = 'Which one are you going to buy?'
+11.1627 	EXP 	eyetracker.setRecordingState(False)
+11.1826 	EXP 	text: height = np.float64(0.05)
+11.1826 	EXP 	text: height = np.float64(0.05)
+11.1826 	EXP 	text: height = np.float64(0.05)
+11.1826 	EXP 	text: text = 'Which one are you going to buy?'
+11.1844 	EXP 	eyetracker.setRecordingState(False)
+11.1997 	EXP 	text: height = np.float64(0.05)
+11.1997 	EXP 	text: height = np.float64(0.05)
+11.1997 	EXP 	text: height = np.float64(0.05)
+11.1997 	EXP 	text: text = 'Which one are you going to buy?'
+11.2019 	EXP 	eyetracker.setRecordingState(False)
+11.2193 	EXP 	text: height = np.float64(0.05)
+11.2193 	EXP 	text: height = np.float64(0.05)
+11.2193 	EXP 	text: height = np.float64(0.05)
+11.2193 	EXP 	text: text = 'Which one are you going to buy?'
+11.2214 	EXP 	eyetracker.setRecordingState(False)
+11.2411 	EXP 	text: height = np.float64(0.05)
+11.2411 	EXP 	text: height = np.float64(0.05)
+11.2411 	EXP 	text: height = np.float64(0.05)
+11.2411 	EXP 	text: text = 'Which one are you going to buy?'
+11.2436 	EXP 	eyetracker.setRecordingState(False)
+11.2611 	EXP 	text: height = np.float64(0.05)
+11.2611 	EXP 	text: height = np.float64(0.05)
+11.2611 	EXP 	text: height = np.float64(0.05)
+11.2611 	EXP 	text: text = 'Which one are you going to buy?'
+11.2627 	EXP 	eyetracker.setRecordingState(False)
+11.2801 	EXP 	text: height = np.float64(0.05)
+11.2801 	EXP 	text: height = np.float64(0.05)
+11.2801 	EXP 	text: height = np.float64(0.05)
+11.2801 	EXP 	text: text = 'Which one are you going to buy?'
+11.2819 	EXP 	eyetracker.setRecordingState(False)
+11.3008 	EXP 	text: height = np.float64(0.05)
+11.3008 	EXP 	text: height = np.float64(0.05)
+11.3008 	EXP 	text: height = np.float64(0.05)
+11.3008 	EXP 	text: text = 'Which one are you going to buy?'
+11.3029 	EXP 	eyetracker.setRecordingState(False)
+11.3209 	EXP 	text: height = np.float64(0.05)
+11.3209 	EXP 	text: height = np.float64(0.05)
+11.3209 	EXP 	text: height = np.float64(0.05)
+11.3209 	EXP 	text: text = 'Which one are you going to buy?'
+11.3227 	EXP 	eyetracker.setRecordingState(False)
+11.3393 	EXP 	text: height = np.float64(0.05)
+11.3393 	EXP 	text: height = np.float64(0.05)
+11.3393 	EXP 	text: height = np.float64(0.05)
+11.3393 	EXP 	text: text = 'Which one are you going to buy?'
+11.3411 	EXP 	eyetracker.setRecordingState(False)
+11.3571 	EXP 	text: height = np.float64(0.05)
+11.3571 	EXP 	text: height = np.float64(0.05)
+11.3571 	EXP 	text: height = np.float64(0.05)
+11.3571 	EXP 	text: text = 'Which one are you going to buy?'
+11.3591 	EXP 	eyetracker.setRecordingState(False)
+11.3776 	EXP 	text: height = np.float64(0.05)
+11.3776 	EXP 	text: height = np.float64(0.05)
+11.3776 	EXP 	text: height = np.float64(0.05)
+11.3776 	EXP 	text: text = 'Which one are you going to buy?'
+11.3794 	EXP 	eyetracker.setRecordingState(False)
+11.3930 	EXP 	text: height = np.float64(0.05)
+11.3930 	EXP 	text: height = np.float64(0.05)
+11.3930 	EXP 	text: height = np.float64(0.05)
+11.3930 	EXP 	text: text = 'Which one are you going to buy?'
+11.3948 	EXP 	eyetracker.setRecordingState(False)
+11.4113 	EXP 	text: height = np.float64(0.05)
+11.4113 	EXP 	text: height = np.float64(0.05)
+11.4113 	EXP 	text: height = np.float64(0.05)
+11.4113 	EXP 	text: text = 'Which one are you going to buy?'
+11.4130 	EXP 	eyetracker.setRecordingState(False)
+11.4292 	EXP 	text: height = np.float64(0.05)
+11.4292 	EXP 	text: height = np.float64(0.05)
+11.4292 	EXP 	text: height = np.float64(0.05)
+11.4292 	EXP 	text: text = 'Which one are you going to buy?'
+11.4312 	EXP 	eyetracker.setRecordingState(False)
+11.4447 	EXP 	text: height = np.float64(0.05)
+11.4447 	EXP 	text: height = np.float64(0.05)
+11.4447 	EXP 	text: height = np.float64(0.05)
+11.4447 	EXP 	text: text = 'Which one are you going to buy?'
+11.4460 	EXP 	eyetracker.setRecordingState(False)
+11.4593 	EXP 	text: height = np.float64(0.05)
+11.4593 	EXP 	text: height = np.float64(0.05)
+11.4593 	EXP 	text: height = np.float64(0.05)
+11.4593 	EXP 	text: text = 'Which one are you going to buy?'
+11.4608 	EXP 	eyetracker.setRecordingState(False)
+11.4753 	EXP 	text: height = np.float64(0.05)
+11.4753 	EXP 	text: height = np.float64(0.05)
+11.4753 	EXP 	text: height = np.float64(0.05)
+11.4753 	EXP 	text: text = 'Which one are you going to buy?'
+11.4764 	EXP 	eyetracker.setRecordingState(False)
+11.4882 	EXP 	text: height = np.float64(0.05)
+11.4882 	EXP 	text: height = np.float64(0.05)
+11.4882 	EXP 	text: height = np.float64(0.05)
+11.4882 	EXP 	text: text = 'Which one are you going to buy?'
+11.4902 	EXP 	eyetracker.setRecordingState(False)
+11.5056 	EXP 	text: height = np.float64(0.05)
+11.5056 	EXP 	text: height = np.float64(0.05)
+11.5056 	EXP 	text: height = np.float64(0.05)
+11.5056 	EXP 	text: text = 'Which one are you going to buy?'
+11.5068 	EXP 	eyetracker.setRecordingState(False)
+11.5210 	EXP 	text: height = np.float64(0.05)
+11.5210 	EXP 	text: height = np.float64(0.05)
+11.5210 	EXP 	text: height = np.float64(0.05)
+11.5210 	EXP 	text: text = 'Which one are you going to buy?'
+11.5223 	EXP 	eyetracker.setRecordingState(False)
+11.5383 	EXP 	text: height = np.float64(0.05)
+11.5383 	EXP 	text: height = np.float64(0.05)
+11.5383 	EXP 	text: height = np.float64(0.05)
+11.5383 	EXP 	text: text = 'Which one are you going to buy?'
+11.5400 	EXP 	eyetracker.setRecordingState(False)
+11.5570 	EXP 	text: height = np.float64(0.05)
+11.5570 	EXP 	text: height = np.float64(0.05)
+11.5570 	EXP 	text: height = np.float64(0.05)
+11.5570 	EXP 	text: text = 'Which one are you going to buy?'
+11.5591 	EXP 	eyetracker.setRecordingState(False)
+11.5774 	EXP 	text: height = np.float64(0.05)
+11.5774 	EXP 	text: height = np.float64(0.05)
+11.5774 	EXP 	text: height = np.float64(0.05)
+11.5774 	EXP 	text: text = 'Which one are you going to buy?'
+11.5797 	EXP 	eyetracker.setRecordingState(False)
+11.5976 	EXP 	text: height = np.float64(0.05)
+11.5976 	EXP 	text: height = np.float64(0.05)
+11.5976 	EXP 	text: height = np.float64(0.05)
+11.5976 	EXP 	text: text = 'Which one are you going to buy?'
+11.5993 	EXP 	eyetracker.setRecordingState(False)
+11.6153 	EXP 	text: height = np.float64(0.05)
+11.6153 	EXP 	text: height = np.float64(0.05)
+11.6153 	EXP 	text: height = np.float64(0.05)
+11.6153 	EXP 	text: text = 'Which one are you going to buy?'
+11.6167 	EXP 	eyetracker.setRecordingState(False)
+11.6289 	EXP 	text: height = np.float64(0.05)
+11.6289 	EXP 	text: height = np.float64(0.05)
+11.6289 	EXP 	text: height = np.float64(0.05)
+11.6289 	EXP 	text: text = 'Which one are you going to buy?'
+11.6299 	EXP 	eyetracker.setRecordingState(False)
+11.6410 	EXP 	text: height = np.float64(0.05)
+11.6410 	EXP 	text: height = np.float64(0.05)
+11.6410 	EXP 	text: height = np.float64(0.05)
+11.6410 	EXP 	text: text = 'Which one are you going to buy?'
+11.6428 	EXP 	eyetracker.setRecordingState(False)
+11.6551 	EXP 	text: height = np.float64(0.05)
+11.6551 	EXP 	text: height = np.float64(0.05)
+11.6551 	EXP 	text: height = np.float64(0.05)
+11.6551 	EXP 	text: text = 'Which one are you going to buy?'
+11.6564 	EXP 	eyetracker.setRecordingState(False)
+11.6718 	EXP 	text: height = np.float64(0.05)
+11.6718 	EXP 	text: height = np.float64(0.05)
+11.6718 	EXP 	text: height = np.float64(0.05)
+11.6718 	EXP 	text: text = 'Which one are you going to buy?'
+11.6737 	EXP 	eyetracker.setRecordingState(False)
+11.6917 	EXP 	text: height = np.float64(0.05)
+11.6917 	EXP 	text: height = np.float64(0.05)
+11.6917 	EXP 	text: height = np.float64(0.05)
+11.6917 	EXP 	text: text = 'Which one are you going to buy?'
+11.6934 	EXP 	eyetracker.setRecordingState(False)
+11.7106 	EXP 	text: height = np.float64(0.05)
+11.7106 	EXP 	text: height = np.float64(0.05)
+11.7106 	EXP 	text: height = np.float64(0.05)
+11.7106 	EXP 	text: text = 'Which one are you going to buy?'
+11.7133 	EXP 	eyetracker.setRecordingState(False)
+11.7365 	EXP 	text: height = np.float64(0.05)
+11.7365 	EXP 	text: height = np.float64(0.05)
+11.7365 	EXP 	text: height = np.float64(0.05)
+11.7365 	EXP 	text: text = 'Which one are you going to buy?'
+11.7384 	EXP 	eyetracker.setRecordingState(False)
+11.7585 	EXP 	text: height = np.float64(0.05)
+11.7585 	EXP 	text: height = np.float64(0.05)
+11.7585 	EXP 	text: height = np.float64(0.05)
+11.7585 	EXP 	text: text = 'Which one are you going to buy?'
+11.7601 	EXP 	eyetracker.setRecordingState(False)
+11.7774 	EXP 	text: height = np.float64(0.05)
+11.7774 	EXP 	text: height = np.float64(0.05)
+11.7774 	EXP 	text: height = np.float64(0.05)
+11.7774 	EXP 	text: text = 'Which one are you going to buy?'
+11.7789 	EXP 	eyetracker.setRecordingState(False)
+11.7980 	EXP 	text: height = np.float64(0.05)
+11.7980 	EXP 	text: height = np.float64(0.05)
+11.7980 	EXP 	text: height = np.float64(0.05)
+11.7980 	EXP 	text: text = 'Which one are you going to buy?'
+11.7993 	EXP 	eyetracker.setRecordingState(False)
+11.8112 	EXP 	text: height = np.float64(0.05)
+11.8112 	EXP 	text: height = np.float64(0.05)
+11.8112 	EXP 	text: height = np.float64(0.05)
+11.8112 	EXP 	text: text = 'Which one are you going to buy?'
+11.8129 	EXP 	eyetracker.setRecordingState(False)
+11.8300 	EXP 	text: height = np.float64(0.05)
+11.8300 	EXP 	text: height = np.float64(0.05)
+11.8300 	EXP 	text: height = np.float64(0.05)
+11.8300 	EXP 	text: text = 'Which one are you going to buy?'
+11.8318 	EXP 	eyetracker.setRecordingState(False)
+11.8478 	EXP 	text: height = np.float64(0.05)
+11.8478 	EXP 	text: height = np.float64(0.05)
+11.8478 	EXP 	text: height = np.float64(0.05)
+11.8478 	EXP 	text: text = 'Which one are you going to buy?'
+11.8494 	EXP 	eyetracker.setRecordingState(False)
+11.8730 	EXP 	text: height = np.float64(0.05)
+11.8730 	EXP 	text: height = np.float64(0.05)
+11.8730 	EXP 	text: height = np.float64(0.05)
+11.8730 	EXP 	text: text = 'Which one are you going to buy?'
+11.8751 	EXP 	eyetracker.setRecordingState(False)
+11.9009 	EXP 	text: height = np.float64(0.05)
+11.9009 	EXP 	text: height = np.float64(0.05)
+11.9009 	EXP 	text: height = np.float64(0.05)
+11.9009 	EXP 	text: text = 'Which one are you going to buy?'
+11.9034 	EXP 	eyetracker.setRecordingState(False)
+11.9268 	EXP 	text: height = np.float64(0.05)
+11.9268 	EXP 	text: height = np.float64(0.05)
+11.9268 	EXP 	text: height = np.float64(0.05)
+11.9268 	EXP 	text: text = 'Which one are you going to buy?'
+11.9291 	EXP 	eyetracker.setRecordingState(False)
+11.9493 	EXP 	text: height = np.float64(0.05)
+11.9493 	EXP 	text: height = np.float64(0.05)
+11.9493 	EXP 	text: height = np.float64(0.05)
+11.9493 	EXP 	text: text = 'Which one are you going to buy?'
+11.9511 	EXP 	eyetracker.setRecordingState(False)
+11.9683 	EXP 	text: height = np.float64(0.05)
+11.9683 	EXP 	text: height = np.float64(0.05)
+11.9683 	EXP 	text: height = np.float64(0.05)
+11.9683 	EXP 	text: text = 'Which one are you going to buy?'
+11.9703 	DATA 	Mouse: Left button down, pos=(1607,521)
+11.9723 	EXP 	eyetracker.setRecordingState(False)
+11.9765 	EXP 	text: autoDraw = False
+11.9765 	EXP 	ambewela: autoDraw = False
+11.9765 	EXP 	kothmale: autoDraw = False
+11.9765 	EXP 	happycow: autoDraw = False
+11.9765 	EXP 	kraft: autoDraw = False
+11.9765 	EXP 	richlife: autoDraw = False
+11.9765 	EXP 	text_2: autoDraw = False
+11.9765 	EXP 	text_3: autoDraw = False
+11.9765 	EXP 	text_4: autoDraw = False
+11.9765 	EXP 	text_5: autoDraw = False
+11.9765 	EXP 	text_6: autoDraw = False
+11.9767 	EXP 	Cheese: status = STOPPED
+12.0435 	INFO 	saved data to 'C:\\Users\\M S I\\OneDrive\\Documents\\GitHub\\Research-Project\\data\\375711_Cheese_2026-01-02_19h48.45.204.csv'
+12.0488 	INFO 	saved data to C:\Users\M S I\OneDrive\Documents\GitHub\Research-Project\data\375711_Cheese_2026-01-02_19h48.45.204.psydat
