@@ -402,13 +402,13 @@
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <MouseComponent name="mouse" plugin="None">
+      <MouseComponent name="mous_1" plugin="None">
         <Param val="ambewela,kothmale,happycow,kraft,richlife" valType="list" updates="constant" name="clickable"/>
         <Param val="" valType="list" updates="constant" name="correctAns"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
-        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="mous_1" valType="code" updates="None" name="name"/>
         <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
         <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
         <Param val="name," valType="list" updates="set every repeat" name="saveParamsClickable"/>
@@ -1690,10 +1690,10 @@
     </Routine>
   </Routines>
   <Flow>
-    <Routine name="sausage"/>
-    <Routine name="Chocolate_"/>
-    <Routine name="Coocking_oil"/>
     <Routine name="cheese"/>
     <Routine name="Butter"/>
+    <Routine name="Coocking_oil"/>
+    <Routine name="Chocolate_"/>
+    <Routine name="sausage"/>
   </Flow>
 </PsychoPy2experiment>
