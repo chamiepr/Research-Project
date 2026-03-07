@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.3),
-    on January 06, 2026, at 16:00
+    on March 06, 2026, at 09:46
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -2677,86 +2677,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # the Routine "sausage" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
-    # --- Prediction Logic ---
-    try:
-        import xgboost as xgb
-        import joblib
-        import pandas as pd
-        import numpy as np
-        
-        # Load model
-        print("Loading decision model...")
-        model = joblib.load('decision_model.pkl')
-        le = joblib.load('label_encoder.pkl')
-        
-        # Get data from last routine (sausage)
-        # We use key_resp_5 (response) and mouse_5 (gaze proxy if needed)
-        
-        rt_val = 0
-        gaze_x_val = 0
-        gaze_y_val = 0
-        
-        # Average Reaction Time from the trials (if multiple) or the last one
-        if hasattr(key_resp_5, 'rt') and key_resp_5.rt is not None:
-             if isinstance(key_resp_5.rt, list) and len(key_resp_5.rt) > 0:
-                 rt_val = np.mean(key_resp_5.rt) # Use mean RT if multiple
-             elif isinstance(key_resp_5.rt, (float, int)):
-                 rt_val = key_resp_5.rt
-        
-        # Gaze from Mouse
-        # mouse_5.x is a list of positions
-        if hasattr(mouse_5, 'x') and len(mouse_5.x) > 0:
-            gaze_x_val = np.mean(mouse_5.x)
-            gaze_y_val = np.mean(mouse_5.y)
-        
-        print(f"Prediction Input: RT={rt_val}, X={gaze_x_val}, Y={gaze_y_val}")
-        
-        # Prepare input
-        input_data = pd.DataFrame([{
-            'reaction_time': rt_val,
-            'gaze_x': gaze_x_val,
-            'gaze_y': gaze_y_val
-        }])
-        
-        # Predict
-        probs = model.predict_proba(input_data)[0]
-        classes = le.classes_ # e.g. ['familiarity', 'price', 'quality']
-        
-        # Create Result String
-        result_text = "Analysis of Your Decision:\n\n"
-        for i, cls in enumerate(classes):
-            cls_name = cls.capitalize()
-            if cls_name.lower() == 'brand': cls_name = 'Quality' # Ensure Brand displays as Quality
-            result_text += f"{cls_name}: {probs[i]*100:.1f}%\n"
-            
-        print("Prediction Result:\n" + result_text)
-        
-        # Display Result
-        result_stim = visual.TextStim(win=win, name='result_text',
-            text=result_text,
-            font='Arial',
-            pos=(0, 0), draggable=False, height=0.08, wrapWidth=None, ori=0.0, 
-            color='white', colorSpace='rgb', opacity=1.0, 
-            languageStyle='LTR',
-            depth=0.0)
-            
-        # Draw and Wait
-        result_stim.draw()
-        win.flip()
-        
-        # Wait for a key press or timeout
-        core.wait(5.0) # Show for 5 seconds
-        
-        # Optional: Wait for click to close?
-        # event.waitKeys()
-        
-    except Exception as e:
-        print(f"Prediction failed: {e}")
-        err_msg = visual.TextStim(win=win, text=f"Error analyzing data: {e}", color='red', height=0.04)
-        err_msg.draw()
-        win.flip()
-        core.wait(3.0)
-
     # mark experiment as finished
     endExperiment(thisExp, win=win)
 
