@@ -1,0 +1,60 @@
+{
+  "predictions": [
+    {
+      "participant": "102855",
+      "brochure_id": "1",
+      "clicked_item": "krest",
+      "age": 24,
+      "gender": "Female",
+      "reaction_time": 1.2486,
+      "gaze_x": 0.2407,
+      "gaze_y": -0.0296,
+      "brand_pct": 29.57,
+      "familiarity_pct": 44.32,
+      "price_pct": 26.11,
+      "predicted_reason": "Familiarity"
+    },
+    {
+      "participant": "102855",
+      "brochure_id": "2",
+      "clicked_item": "revello",
+      "age": 24,
+      "gender": "Female",
+      "reaction_time": 3.3413,
+      "gaze_x": 0.2407,
+      "gaze_y": -0.0296,
+      "brand_pct": 42.49,
+      "familiarity_pct": 26.9,
+      "price_pct": 30.61,
+      "predicted_reason": "Brand"
+    },
+    {
+      "participant": "102855",
+      "brochure_id": "3",
+      "clicked_item": "Njoy",
+      "age": 24,
+      "gender": "Female",
+      "reaction_time": 1.3196,
+      "gaze_x": 0.5241,
+      "gaze_y": -0.0074,
+      "brand_pct": 13.73,
+      "familiarity_pct": 32.55,
+      "price_pct": 53.71,
+      "predicted_reason": "Price"
+    },
+    {
+      "participant": "102855",
+      "brochure_id": "5",
+      "clicked_item": "highlandYoghurt",
+      "age": 24,
+      "gender": "Female",
+      "reaction_time": 1.6794,
+      "gaze_x": -0.3343,
+      "gaze_y": -0.0287,
+      "brand_pct": 46.96,
+      "familiarity_pct": 33.87,
+      "price_pct": 19.17,
+      "predicted_reason": "Brand"
+    }
+  ]
+}
